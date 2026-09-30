@@ -1,0 +1,36 @@
+# dependencies & build
+cms/node_modules/
+cms/dist/
+**/node_modules/
+
+# secrets & local data
+cms/.env
+cms/prisma/dev.db
+cms/prisma/dev.db-journal
+**/.env
+**/.env.local
+
+# uploads (keep folder via .gitkeep)
+cms/uploads/*
+!cms/uploads/.gitkeep
+
+# large local binaries / tunnel
+cloudflared.exe
+cloudflare/*.json
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
+
+# local WhatsApp dumps / temp
+WhatsApp Unknown*/
+*.zip
+_*.py
+_*.txt
+*.cmd.bak
+
+WhatsApp Image *.jpeg
+WhatsApp Image *.jpg

@@ -1,0 +1,518 @@
+[
+  {
+    "page": "home",
+    "key": "home.image.0",
+    "type": "image",
+    "value": "assets/axes-group-mark.png"
+  },
+  {
+    "page": "home",
+    "key": "home.image.1",
+    "type": "image",
+    "value": "assets/mobile-office.jpg"
+  },
+  {
+    "page": "home",
+    "key": "home.image.2",
+    "type": "image",
+    "value": "assets/service-construction.jpg"
+  },
+  {
+    "page": "home",
+    "key": "home.image.3",
+    "type": "image",
+    "value": "assets/service-concrete.webp"
+  },
+  {
+    "page": "home",
+    "key": "home.image.4",
+    "type": "image",
+    "value": "assets/service-excavation.webp"
+  },
+  {
+    "page": "home",
+    "key": "home.image.5",
+    "type": "image",
+    "value": "assets/service-roads.webp"
+  },
+  {
+    "page": "home",
+    "key": "home.image.6",
+    "type": "image",
+    "value": "assets/mobile-office.jpg"
+  },
+  {
+    "page": "home",
+    "key": "home.image.7",
+    "type": "image",
+    "value": "assets/service-industrial.webp"
+  },
+  {
+    "page": "home",
+    "key": "home.image.8",
+    "type": "image",
+    "value": "assets/mobile-office.jpg"
+  },
+  {
+    "page": "home",
+    "key": "home.image.9",
+    "type": "image",
+    "value": "assets/service-maintenance.webp"
+  },
+  {
+    "page": "home",
+    "key": "home.image.10",
+    "type": "image",
+    "value": "assets/service-concrete.webp"
+  },
+  {
+    "page": "home",
+    "key": "home.image.11",
+    "type": "image",
+    "value": "assets/field/oversight.jpg"
+  },
+  {
+    "page": "home",
+    "key": "home.image.12",
+    "type": "image",
+    "value": "assets/service-excavation.webp"
+  },
+  {
+    "page": "home",
+    "key": "home.image.13",
+    "type": "image",
+    "value": "assets/field/field-20.jpg"
+  },
+  {
+    "page": "home",
+    "key": "home.image.14",
+    "type": "image",
+    "value": "assets/field/field-15.jpg"
+  },
+  {
+    "page": "home",
+    "key": "home.image.15",
+    "type": "image",
+    "value": "assets/field/field-09.jpg"
+  },
+  {
+    "page": "home",
+    "key": "home.image.16",
+    "type": "image",
+    "value": "assets/field/field-03.jpg"
+  },
+  {
+    "page": "home",
+    "key": "home.image.17",
+    "type": "image",
+    "value": "assets/axes-group-mark.png"
+  },
+  {
+    "page": "home",
+    "key": "home.poster.0",
+    "type": "poster",
+    "value": "assets/mobile-office.jpg"
+  },
+  {
+    "page": "home",
+    "key": "home.poster.1",
+    "type": "poster",
+    "value": "assets/exterior.jpg"
+  },
+  {
+    "page": "home",
+    "key": "home.video.0",
+    "type": "video",
+    "value": "assets/construction.mp4"
+  },
+  {
+    "page": "home",
+    "key": "home.video.1",
+    "type": "video",
+    "value": "assets/exterior.mp4"
+  },
+  {
+    "page": "about",
+    "key": "about.image.0",
+    "type": "image",
+    "value": "assets/axes-group-mark.png"
+  },
+  {
+    "page": "about",
+    "key": "about.image.1",
+    "type": "image",
+    "value": "assets/service-concrete.webp"
+  },
+  {
+    "page": "about",
+    "key": "about.image.2",
+    "type": "image",
+    "value": "assets/field/field-15.jpg"
+  },
+  {
+    "page": "about",
+    "key": "about.image.3",
+    "type": "image",
+    "value": "assets/field/field-10.jpg"
+  },
+  {
+    "page": "about",
+    "key": "about.image.4",
+    "type": "image",
+    "value": "assets/field/field-20.jpg"
+  },
+  {
+    "page": "about",
+    "key": "about.image.5",
+    "type": "image",
+    "value": "assets/field/oversight.jpg"
+  },
+  {
+    "page": "about",
+    "key": "about.image.6",
+    "type": "image",
+    "value": "assets/chairman-portrait.jpg"
+  },
+  {
+    "page": "about",
+    "key": "about.image.7",
+    "type": "image",
+    "value": "assets/axes-group-mark.png"
+  },
+  {
+    "page": "about",
+    "key": "about.poster.0",
+    "type": "poster",
+    "value": "assets/chairman.jpg"
+  },
+  {
+    "page": "about",
+    "key": "about.video.0",
+    "type": "video",
+    "value": "assets/chairman-message.mp4"
+  },
+  {
+    "page": "services",
+    "key": "services.image.0",
+    "type": "image",
+    "value": "assets/axes-group-mark.png"
+  },
+  {
+    "page": "services",
+    "key": "services.image.1",
+    "type": "image",
+    "value": "assets/service-construction.jpg"
+  },
+  {
+    "page": "services",
+    "key": "services.image.2",
+    "type": "image",
+    "value": "assets/service-concrete.webp"
+  },
+  {
+    "page": "services",
+    "key": "services.image.3",
+    "type": "image",
+    "value": "assets/service-excavation.webp"
+  },
+  {
+    "page": "services",
+    "key": "services.image.4",
+    "type": "image",
+    "value": "assets/service-roads.webp"
+  },
+  {
+    "page": "services",
+    "key": "services.image.5",
+    "type": "image",
+    "value": "assets/mobile-office.jpg"
+  },
+  {
+    "page": "services",
+    "key": "services.image.6",
+    "type": "image",
+    "value": "assets/service-industrial.webp"
+  },
+  {
+    "page": "services",
+    "key": "services.image.7",
+    "type": "image",
+    "value": "assets/mobile-office.jpg"
+  },
+  {
+    "page": "services",
+    "key": "services.image.8",
+    "type": "image",
+    "value": "assets/service-cctv.webp"
+  },
+  {
+    "page": "services",
+    "key": "services.image.9",
+    "type": "image",
+    "value": "assets/service-fence.webp"
+  },
+  {
+    "page": "services",
+    "key": "services.image.10",
+    "type": "image",
+    "value": "assets/axes-group-mark.png"
+  },
+  {
+    "page": "projects",
+    "key": "projects.image.0",
+    "type": "image",
+    "value": "assets/axes-group-mark.png"
+  },
+  {
+    "page": "projects",
+    "key": "projects.image.1",
+    "type": "image",
+    "value": "assets/field/field-03.jpg"
+  },
+  {
+    "page": "projects",
+    "key": "projects.image.2",
+    "type": "image",
+    "value": "assets/field/field-01.jpg"
+  },
+  {
+    "page": "projects",
+    "key": "projects.image.3",
+    "type": "image",
+    "value": "assets/field/field-20.jpg"
+  },
+  {
+    "page": "projects",
+    "key": "projects.image.4",
+    "type": "image",
+    "value": "assets/field/field-05.jpg"
+  },
+  {
+    "page": "projects",
+    "key": "projects.image.5",
+    "type": "image",
+    "value": "assets/service-maintenance.webp"
+  },
+  {
+    "page": "projects",
+    "key": "projects.image.6",
+    "type": "image",
+    "value": "assets/field/oversight.jpg"
+  },
+  {
+    "page": "projects",
+    "key": "projects.image.7",
+    "type": "image",
+    "value": "assets/field/field-09.jpg"
+  },
+  {
+    "page": "projects",
+    "key": "projects.image.8",
+    "type": "image",
+    "value": "assets/field/field-18.jpg"
+  },
+  {
+    "page": "projects",
+    "key": "projects.image.9",
+    "type": "image",
+    "value": "assets/field/field-08.jpg"
+  },
+  {
+    "page": "projects",
+    "key": "projects.image.10",
+    "type": "image",
+    "value": "assets/field/field-62.jpg"
+  },
+  {
+    "page": "projects",
+    "key": "projects.image.11",
+    "type": "image",
+    "value": "assets/field/field-12.jpg"
+  },
+  {
+    "page": "projects",
+    "key": "projects.image.12",
+    "type": "image",
+    "value": "assets/field/field-05.jpg"
+  },
+  {
+    "page": "projects",
+    "key": "projects.image.13",
+    "type": "image",
+    "value": "assets/field/field-53.jpg"
+  },
+  {
+    "page": "projects",
+    "key": "projects.image.14",
+    "type": "image",
+    "value": "assets/field/field-28.jpg"
+  },
+  {
+    "page": "projects",
+    "key": "projects.image.15",
+    "type": "image",
+    "value": "assets/field/field-35.jpg"
+  },
+  {
+    "page": "projects",
+    "key": "projects.image.16",
+    "type": "image",
+    "value": "assets/field/field-45.jpg"
+  },
+  {
+    "page": "projects",
+    "key": "projects.image.17",
+    "type": "image",
+    "value": "assets/field/field-25.jpg"
+  },
+  {
+    "page": "projects",
+    "key": "projects.image.18",
+    "type": "image",
+    "value": "assets/field/field-56.jpg"
+  },
+  {
+    "page": "projects",
+    "key": "projects.image.19",
+    "type": "image",
+    "value": "assets/field/field-51.jpg"
+  },
+  {
+    "page": "projects",
+    "key": "projects.image.20",
+    "type": "image",
+    "value": "assets/field/field-57.jpg"
+  },
+  {
+    "page": "projects",
+    "key": "projects.image.21",
+    "type": "image",
+    "value": "assets/field/field-40.jpg"
+  },
+  {
+    "page": "projects",
+    "key": "projects.image.22",
+    "type": "image",
+    "value": "assets/field/field-27.jpg"
+  },
+  {
+    "page": "projects",
+    "key": "projects.image.23",
+    "type": "image",
+    "value": "assets/axes-group-mark.png"
+  },
+  {
+    "page": "projects",
+    "key": "projects.poster.0",
+    "type": "poster",
+    "value": "assets/exterior.jpg"
+  },
+  {
+    "page": "projects",
+    "key": "projects.poster.1",
+    "type": "poster",
+    "value": "assets/hero.jpg"
+  },
+  {
+    "page": "projects",
+    "key": "projects.poster.2",
+    "type": "poster",
+    "value": "assets/interior.jpg"
+  },
+  {
+    "page": "projects",
+    "key": "projects.video.0",
+    "type": "video",
+    "value": "assets/exterior.mp4"
+  },
+  {
+    "page": "projects",
+    "key": "projects.video.1",
+    "type": "video",
+    "value": "assets/construction.mp4"
+  },
+  {
+    "page": "projects",
+    "key": "projects.video.2",
+    "type": "video",
+    "value": "assets/interiors.mp4"
+  },
+  {
+    "page": "quality",
+    "key": "quality.image.0",
+    "type": "image",
+    "value": "assets/axes-group-mark.png"
+  },
+  {
+    "page": "quality",
+    "key": "quality.image.1",
+    "type": "image",
+    "value": "assets/field/field-20.jpg"
+  },
+  {
+    "page": "quality",
+    "key": "quality.image.2",
+    "type": "image",
+    "value": "assets/field/field-15.jpg"
+  },
+  {
+    "page": "quality",
+    "key": "quality.image.3",
+    "type": "image",
+    "value": "assets/field/field-06.jpg"
+  },
+  {
+    "page": "quality",
+    "key": "quality.image.4",
+    "type": "image",
+    "value": "assets/field/field-10.jpg"
+  },
+  {
+    "page": "quality",
+    "key": "quality.image.5",
+    "type": "image",
+    "value": "assets/field/field-12.jpg"
+  },
+  {
+    "page": "quality",
+    "key": "quality.image.6",
+    "type": "image",
+    "value": "assets/field/field-01.jpg"
+  },
+  {
+    "page": "quality",
+    "key": "quality.image.7",
+    "type": "image",
+    "value": "assets/field/field-08.jpg"
+  },
+  {
+    "page": "quality",
+    "key": "quality.image.8",
+    "type": "image",
+    "value": "assets/field/oversight.jpg"
+  },
+  {
+    "page": "quality",
+    "key": "quality.image.9",
+    "type": "image",
+    "value": "assets/axes-group-mark.png"
+  },
+  {
+    "page": "contact",
+    "key": "contact.image.0",
+    "type": "image",
+    "value": "assets/axes-group-mark.png"
+  },
+  {
+    "page": "contact",
+    "key": "contact.image.1",
+    "type": "image",
+    "value": "assets/office-hq.jpg"
+  },
+  {
+    "page": "contact",
+    "key": "contact.image.2",
+    "type": "image",
+    "value": "assets/axes-group-mark.png"
+  }
+]

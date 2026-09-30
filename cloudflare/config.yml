@@ -1,0 +1,9 @@
+tunnel: 32e308e9-ae0f-4e46-8e5f-cb9e21c924c8
+credentials-file: C:\Users\Musaab\.cloudflared\32e308e9-ae0f-4e46-8e5f-cb9e21c924c8.json
+
+ingress:
+  - hostname: axessud.com
+    service: http://127.0.0.1:8765
+  - hostname: www.axessud.com
+    service: http://127.0.0.1:8765
+  - service: http_status:404

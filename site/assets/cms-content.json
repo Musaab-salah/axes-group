@@ -1,0 +1,489 @@
+{
+  "home": {
+    "hero.cta.primary": {
+      "ar": "استكشف مشاريعنا",
+      "en": "Explore Projects",
+      "type": "text"
+    },
+    "hero.cta.secondary": {
+      "ar": "تواصل معنا",
+      "en": "Contact Us",
+      "type": "text"
+    },
+    "hero.subtitle": {
+      "ar": "اكسس قروب — مقاولات وهندسة مدنية وبنية تحتية بمتابعة ميدانية دقيقة.",
+      "en": "AXES GROUP — contracting, civil engineering and infrastructure with precise site oversight.",
+      "type": "text"
+    },
+    "hero.title": {
+      "ar": "نبني الغد، اليوم",
+      "en": "Building Tomorrow, Today",
+      "type": "text"
+    },
+    "home.image.0": {
+      "ar": "assets/axes-group-mark.png",
+      "en": "assets/axes-group-mark.png",
+      "type": "image"
+    },
+    "home.image.1": {
+      "ar": "assets/mobile-office.jpg",
+      "en": "assets/mobile-office.jpg",
+      "type": "image"
+    },
+    "home.image.10": {
+      "ar": "assets/service-concrete.webp",
+      "en": "assets/service-concrete.webp",
+      "type": "image"
+    },
+    "home.image.11": {
+      "ar": "assets/field/oversight.jpg",
+      "en": "assets/field/oversight.jpg",
+      "type": "image"
+    },
+    "home.image.12": {
+      "ar": "assets/service-excavation.webp",
+      "en": "assets/service-excavation.webp",
+      "type": "image"
+    },
+    "home.image.13": {
+      "ar": "assets/field/field-20.jpg",
+      "en": "assets/field/field-20.jpg",
+      "type": "image"
+    },
+    "home.image.14": {
+      "ar": "assets/field/field-15.jpg",
+      "en": "assets/field/field-15.jpg",
+      "type": "image"
+    },
+    "home.image.15": {
+      "ar": "assets/field/field-09.jpg",
+      "en": "assets/field/field-09.jpg",
+      "type": "image"
+    },
+    "home.image.16": {
+      "ar": "assets/field/field-03.jpg",
+      "en": "assets/field/field-03.jpg",
+      "type": "image"
+    },
+    "home.image.17": {
+      "ar": "assets/axes-group-mark.png",
+      "en": "assets/axes-group-mark.png",
+      "type": "image"
+    },
+    "home.image.2": {
+      "ar": "assets/service-construction.jpg",
+      "en": "assets/service-construction.jpg",
+      "type": "image"
+    },
+    "home.image.3": {
+      "ar": "assets/service-concrete.webp",
+      "en": "assets/service-concrete.webp",
+      "type": "image"
+    },
+    "home.image.4": {
+      "ar": "assets/service-excavation.webp",
+      "en": "assets/service-excavation.webp",
+      "type": "image"
+    },
+    "home.image.5": {
+      "ar": "assets/service-roads.webp",
+      "en": "assets/service-roads.webp",
+      "type": "image"
+    },
+    "home.image.6": {
+      "ar": "assets/mobile-office.jpg",
+      "en": "assets/mobile-office.jpg",
+      "type": "image"
+    },
+    "home.image.7": {
+      "ar": "assets/service-industrial.webp",
+      "en": "assets/service-industrial.webp",
+      "type": "image"
+    },
+    "home.image.8": {
+      "ar": "assets/mobile-office.jpg",
+      "en": "assets/mobile-office.jpg",
+      "type": "image"
+    },
+    "home.image.9": {
+      "ar": "assets/service-maintenance.webp",
+      "en": "assets/service-maintenance.webp",
+      "type": "image"
+    },
+    "home.poster.0": {
+      "ar": "assets/mobile-office.jpg",
+      "en": "assets/mobile-office.jpg",
+      "type": "poster"
+    },
+    "home.poster.1": {
+      "ar": "assets/exterior.jpg",
+      "en": "assets/exterior.jpg",
+      "type": "poster"
+    },
+    "home.video.0": {
+      "ar": "assets/construction.mp4",
+      "en": "assets/construction.mp4",
+      "type": "video"
+    },
+    "home.video.1": {
+      "ar": "assets/exterior.mp4",
+      "en": "assets/exterior.mp4",
+      "type": "video"
+    },
+    "intro.body": {
+      "ar": "تعمل اكسس قروب في الإنشاءات والأعمال المدنية وإدارة المشاريع. نجمع بين التخطيط الدقيق والمتابعة في الموقع لتنفيذ الأعمال بعناية في كل مرحلة.",
+      "en": "AXES GROUP brings together construction, civil works and project management. We pair careful planning with on-site oversight at every stage of delivery.",
+      "type": "text"
+    },
+    "intro.title": {
+      "ar": "خبرة هندسية تصنع أثرًا يدوم",
+      "en": "Engineering that creates lasting impact",
+      "type": "text"
+    }
+  },
+  "about": {
+    "about.image.0": {
+      "ar": "assets/axes-group-mark.png",
+      "en": "assets/axes-group-mark.png",
+      "type": "image"
+    },
+    "about.image.1": {
+      "ar": "assets/service-concrete.webp",
+      "en": "assets/service-concrete.webp",
+      "type": "image"
+    },
+    "about.image.2": {
+      "ar": "assets/field/field-15.jpg",
+      "en": "assets/field/field-15.jpg",
+      "type": "image"
+    },
+    "about.image.3": {
+      "ar": "assets/field/field-10.jpg",
+      "en": "assets/field/field-10.jpg",
+      "type": "image"
+    },
+    "about.image.4": {
+      "ar": "assets/field/field-20.jpg",
+      "en": "assets/field/field-20.jpg",
+      "type": "image"
+    },
+    "about.image.5": {
+      "ar": "assets/field/oversight.jpg",
+      "en": "assets/field/oversight.jpg",
+      "type": "image"
+    },
+    "about.image.6": {
+      "ar": "assets/chairman-portrait.jpg",
+      "en": "assets/chairman-portrait.jpg",
+      "type": "image"
+    },
+    "about.image.7": {
+      "ar": "assets/axes-group-mark.png",
+      "en": "assets/axes-group-mark.png",
+      "type": "image"
+    },
+    "about.poster.0": {
+      "ar": "assets/chairman.jpg",
+      "en": "assets/chairman.jpg",
+      "type": "poster"
+    },
+    "about.video.0": {
+      "ar": "assets/chairman-message.mp4",
+      "en": "assets/chairman-message.mp4",
+      "type": "video"
+    },
+    "chairman.message.p1": {
+      "ar": "أرحب بكم في اكسس قروب للأنشطة المتعددة؛ المجموعة التي تأسست لتكون شريكًا استراتيجيًا ورائدًا في تنمية مختلف القطاعات الحيوية.",
+      "en": "Welcome to AXES GROUP for diversified activities; a group founded to be a strategic partner and a leader in developing vital sectors.",
+      "type": "text"
+    },
+    "chairman.message.p2": {
+      "ar": "تتنوع مجالات عملنا لتلبية تطلعات السوق الحديث، حيث نبرز بتميّز من خلال «اكسس الهندسية» الذراع الرائد للمجموعة في تقديم الحلول الهندسية المتكاملة، والتصاميم المبتكرة، وإدارة المشاريع وفق أعلى معايير الجودة والاستدامة، إلى جانب استثماراتنا الممتدة في قطاعات تجارية وخدمية متعددة.",
+      "en": "Our fields of work meet the aspirations of today's market. We stand out through AXES Engineering, the group's leading arm for integrated engineering solutions, innovative design, and project management to the highest standards of quality and sustainability, alongside our broader investments across commercial and service sectors.",
+      "type": "text"
+    },
+    "chairman.message.p3": {
+      "ar": "نلتزم في «اكسس قروب» بالابتكار المستمر، والتميّز التشغيلي، وبناء شراكات مستدامة تسهم في تحقيق القيمة المضافة لعملائنا ومجتمعنا.",
+      "en": "At AXES GROUP, we are committed to continuous innovation, operational excellence, and building lasting partnerships that create added value for our clients and our community.",
+      "type": "text"
+    }
+  },
+  "services": {
+    "services.image.0": {
+      "ar": "assets/axes-group-mark.png",
+      "en": "assets/axes-group-mark.png",
+      "type": "image"
+    },
+    "services.image.1": {
+      "ar": "assets/service-construction.jpg",
+      "en": "assets/service-construction.jpg",
+      "type": "image"
+    },
+    "services.image.10": {
+      "ar": "assets/axes-group-mark.png",
+      "en": "assets/axes-group-mark.png",
+      "type": "image"
+    },
+    "services.image.2": {
+      "ar": "assets/service-concrete.webp",
+      "en": "assets/service-concrete.webp",
+      "type": "image"
+    },
+    "services.image.3": {
+      "ar": "assets/service-excavation.webp",
+      "en": "assets/service-excavation.webp",
+      "type": "image"
+    },
+    "services.image.4": {
+      "ar": "assets/service-roads.webp",
+      "en": "assets/service-roads.webp",
+      "type": "image"
+    },
+    "services.image.5": {
+      "ar": "assets/mobile-office.jpg",
+      "en": "assets/mobile-office.jpg",
+      "type": "image"
+    },
+    "services.image.6": {
+      "ar": "assets/service-industrial.webp",
+      "en": "assets/service-industrial.webp",
+      "type": "image"
+    },
+    "services.image.7": {
+      "ar": "assets/mobile-office.jpg",
+      "en": "assets/mobile-office.jpg",
+      "type": "image"
+    },
+    "services.image.8": {
+      "ar": "assets/service-cctv.webp",
+      "en": "assets/service-cctv.webp",
+      "type": "image"
+    },
+    "services.image.9": {
+      "ar": "assets/service-fence.webp",
+      "en": "assets/service-fence.webp",
+      "type": "image"
+    }
+  },
+  "projects": {
+    "projects.image.0": {
+      "ar": "assets/axes-group-mark.png",
+      "en": "assets/axes-group-mark.png",
+      "type": "image"
+    },
+    "projects.image.1": {
+      "ar": "assets/field/field-03.jpg",
+      "en": "assets/field/field-03.jpg",
+      "type": "image"
+    },
+    "projects.image.10": {
+      "ar": "assets/field/field-62.jpg",
+      "en": "assets/field/field-62.jpg",
+      "type": "image"
+    },
+    "projects.image.11": {
+      "ar": "assets/field/field-12.jpg",
+      "en": "assets/field/field-12.jpg",
+      "type": "image"
+    },
+    "projects.image.12": {
+      "ar": "assets/field/field-05.jpg",
+      "en": "assets/field/field-05.jpg",
+      "type": "image"
+    },
+    "projects.image.13": {
+      "ar": "assets/field/field-53.jpg",
+      "en": "assets/field/field-53.jpg",
+      "type": "image"
+    },
+    "projects.image.14": {
+      "ar": "assets/field/field-28.jpg",
+      "en": "assets/field/field-28.jpg",
+      "type": "image"
+    },
+    "projects.image.15": {
+      "ar": "assets/field/field-35.jpg",
+      "en": "assets/field/field-35.jpg",
+      "type": "image"
+    },
+    "projects.image.16": {
+      "ar": "assets/field/field-45.jpg",
+      "en": "assets/field/field-45.jpg",
+      "type": "image"
+    },
+    "projects.image.17": {
+      "ar": "assets/field/field-25.jpg",
+      "en": "assets/field/field-25.jpg",
+      "type": "image"
+    },
+    "projects.image.18": {
+      "ar": "assets/field/field-56.jpg",
+      "en": "assets/field/field-56.jpg",
+      "type": "image"
+    },
+    "projects.image.19": {
+      "ar": "assets/field/field-51.jpg",
+      "en": "assets/field/field-51.jpg",
+      "type": "image"
+    },
+    "projects.image.2": {
+      "ar": "assets/field/field-01.jpg",
+      "en": "assets/field/field-01.jpg",
+      "type": "image"
+    },
+    "projects.image.20": {
+      "ar": "assets/field/field-57.jpg",
+      "en": "assets/field/field-57.jpg",
+      "type": "image"
+    },
+    "projects.image.21": {
+      "ar": "assets/field/field-40.jpg",
+      "en": "assets/field/field-40.jpg",
+      "type": "image"
+    },
+    "projects.image.22": {
+      "ar": "assets/field/field-27.jpg",
+      "en": "assets/field/field-27.jpg",
+      "type": "image"
+    },
+    "projects.image.23": {
+      "ar": "assets/axes-group-mark.png",
+      "en": "assets/axes-group-mark.png",
+      "type": "image"
+    },
+    "projects.image.3": {
+      "ar": "assets/field/field-20.jpg",
+      "en": "assets/field/field-20.jpg",
+      "type": "image"
+    },
+    "projects.image.4": {
+      "ar": "assets/field/field-05.jpg",
+      "en": "assets/field/field-05.jpg",
+      "type": "image"
+    },
+    "projects.image.5": {
+      "ar": "assets/service-maintenance.webp",
+      "en": "assets/service-maintenance.webp",
+      "type": "image"
+    },
+    "projects.image.6": {
+      "ar": "assets/field/oversight.jpg",
+      "en": "assets/field/oversight.jpg",
+      "type": "image"
+    },
+    "projects.image.7": {
+      "ar": "assets/field/field-09.jpg",
+      "en": "assets/field/field-09.jpg",
+      "type": "image"
+    },
+    "projects.image.8": {
+      "ar": "assets/field/field-18.jpg",
+      "en": "assets/field/field-18.jpg",
+      "type": "image"
+    },
+    "projects.image.9": {
+      "ar": "assets/field/field-08.jpg",
+      "en": "assets/field/field-08.jpg",
+      "type": "image"
+    },
+    "projects.poster.0": {
+      "ar": "assets/exterior.jpg",
+      "en": "assets/exterior.jpg",
+      "type": "poster"
+    },
+    "projects.poster.1": {
+      "ar": "assets/hero.jpg",
+      "en": "assets/hero.jpg",
+      "type": "poster"
+    },
+    "projects.poster.2": {
+      "ar": "assets/interior.jpg",
+      "en": "assets/interior.jpg",
+      "type": "poster"
+    },
+    "projects.video.0": {
+      "ar": "assets/exterior.mp4",
+      "en": "assets/exterior.mp4",
+      "type": "video"
+    },
+    "projects.video.1": {
+      "ar": "assets/construction.mp4",
+      "en": "assets/construction.mp4",
+      "type": "video"
+    },
+    "projects.video.2": {
+      "ar": "assets/interiors.mp4",
+      "en": "assets/interiors.mp4",
+      "type": "video"
+    }
+  },
+  "quality": {
+    "quality.image.0": {
+      "ar": "assets/axes-group-mark.png",
+      "en": "assets/axes-group-mark.png",
+      "type": "image"
+    },
+    "quality.image.1": {
+      "ar": "assets/field/field-20.jpg",
+      "en": "assets/field/field-20.jpg",
+      "type": "image"
+    },
+    "quality.image.2": {
+      "ar": "assets/field/field-15.jpg",
+      "en": "assets/field/field-15.jpg",
+      "type": "image"
+    },
+    "quality.image.3": {
+      "ar": "assets/field/field-06.jpg",
+      "en": "assets/field/field-06.jpg",
+      "type": "image"
+    },
+    "quality.image.4": {
+      "ar": "assets/field/field-10.jpg",
+      "en": "assets/field/field-10.jpg",
+      "type": "image"
+    },
+    "quality.image.5": {
+      "ar": "assets/field/field-12.jpg",
+      "en": "assets/field/field-12.jpg",
+      "type": "image"
+    },
+    "quality.image.6": {
+      "ar": "assets/field/field-01.jpg",
+      "en": "assets/field/field-01.jpg",
+      "type": "image"
+    },
+    "quality.image.7": {
+      "ar": "assets/field/field-08.jpg",
+      "en": "assets/field/field-08.jpg",
+      "type": "image"
+    },
+    "quality.image.8": {
+      "ar": "assets/field/oversight.jpg",
+      "en": "assets/field/oversight.jpg",
+      "type": "image"
+    },
+    "quality.image.9": {
+      "ar": "assets/axes-group-mark.png",
+      "en": "assets/axes-group-mark.png",
+      "type": "image"
+    }
+  },
+  "contact": {
+    "contact.image.0": {
+      "ar": "assets/axes-group-mark.png",
+      "en": "assets/axes-group-mark.png",
+      "type": "image"
+    },
+    "contact.image.1": {
+      "ar": "assets/office-hq.jpg",
+      "en": "assets/office-hq.jpg",
+      "type": "image"
+    },
+    "contact.image.2": {
+      "ar": "assets/axes-group-mark.png",
+      "en": "assets/axes-group-mark.png",
+      "type": "image"
+    }
+  }
+}

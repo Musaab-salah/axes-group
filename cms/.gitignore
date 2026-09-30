@@ -1,0 +1,8 @@
+node_modules/
+uploads/*
+!uploads/.gitkeep
+prisma/dev.db
+prisma/dev.db-journal
+.env
+dist/
+.DS_Store
