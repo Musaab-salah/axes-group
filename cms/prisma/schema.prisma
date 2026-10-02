@@ -21,33 +21,80 @@ enum PublishStatus {
 }
 
 model User {
-  id           String        @id @default(cuid())
-  email        String        @unique
+  id           String           @id @default(cuid())
+  email        String           @unique
   name         String
   passwordHash String
-  role         Role          @default(EDITOR)
-  active       Boolean       @default(true)
-  createdAt    DateTime      @default(now())
-  updatedAt    DateTime      @updatedAt
+  role         Role             @default(EDITOR)
+  active       Boolean          @default(true)
+  createdAt    DateTime         @default(now())
+  updatedAt    DateTime         @updatedAt
   activities   ActivityLog[]
   versions     ContentVersion[]
+  sectorVersions SectorVersion[]
 }
 
 model Page {
-  id         String         @id @default(cuid())
-  slug       String         @unique
-  titleAr    String
-  titleEn    String
-  template   String         @default("standard")
-  status     PublishStatus  @default(DRAFT)
-  seoTitleAr String?
-  seoTitleEn String?
-  seoDescAr  String?
-  seoDescEn  String?
-  createdAt  DateTime       @default(now())
-  updatedAt  DateTime       @updatedAt
-  blocks     ContentBlock[]
-  versions   ContentVersion[]
+  id              String           @id @default(cuid())
+  slug            String           @unique
+  titleAr         String
+  titleEn         String
+  /// Nav display labels (fall back to title*)
+  navLabelAr      String           @default("")
+  navLabelEn      String           @default("")
+  template        String           @default("standard")
+  status          PublishStatus    @default(DRAFT)
+  seoTitleAr      String?
+  seoTitleEn      String?
+  seoDescAr       String?
+  seoDescEn       String?
+  /// Preferred nav flags (applied when item is in draft nav / synced)
+  showInHeader    Boolean          @default(false)
+  showInFooter    Boolean          @default(false)
+  navSortOrder    Int              @default(0)
+  isHome          Boolean          @default(false)
+  createdAt       DateTime         @default(now())
+  updatedAt       DateTime         @updatedAt
+  blocks          ContentBlock[]
+  versions        ContentVersion[]
+  sector          Sector?
+  navItems        NavItem[]
+}
+
+model NavItem {
+  id           String    @id @default(cuid())
+  /// draft | published
+  layer        String    @default("draft")
+  /// page | sector | service | custom
+  targetType   String
+  pageId       String?
+  page         Page?     @relation(fields: [pageId], references: [id], onDelete: SetNull)
+  sectorId     String?
+  sector       Sector?   @relation(fields: [sectorId], references: [id], onDelete: SetNull)
+  serviceId    String?
+  service      Service?  @relation(fields: [serviceId], references: [id], onDelete: SetNull)
+  /// Resolved or custom path, e.g. /about or /sectors/engineering
+  href         String    @default("/")
+  labelAr      String
+  labelEn      String
+  showInHeader Boolean   @default(true)
+  showInFooter Boolean   @default(false)
+  sortOrder    Int       @default(0)
+  parentId     String?
+  parent       NavItem?  @relation("NavChildren", fields: [parentId], references: [id], onDelete: Cascade)
+  children     NavItem[] @relation("NavChildren")
+  createdAt    DateTime  @default(now())
+  updatedAt    DateTime  @updatedAt
+
+  @@index([layer, showInHeader, sortOrder])
+  @@index([layer, showInFooter, sortOrder])
+}
+
+model PageRedirect {
+  id        String   @id @default(cuid())
+  fromPath  String   @unique
+  toPath    String
+  createdAt DateTime @default(now())
 }
 
 model ContentBlock {
@@ -67,51 +114,145 @@ model ContentBlock {
 }
 
 model Media {
-  id           String   @id @default(cuid())
-  filename     String
-  originalName String
-  mimeType     String
-  size         Int
-  path         String
-  altAr        String   @default("")
-  altEn        String   @default("")
-  kind         String   @default("image")
-  createdAt    DateTime @default(now())
+  id            String        @id @default(cuid())
+  filename      String
+  originalName  String
+  mimeType      String
+  size          Int
+  path          String
+  altAr         String        @default("")
+  altEn         String        @default("")
+  titleAr       String        @default("")
+  titleEn       String        @default("")
+  descriptionAr String        @default("")
+  descriptionEn String        @default("")
+  kind          String        @default("image")
+  /// Draft uploads are not publicly downloadable until published with content
+  isDraft       Boolean       @default(false)
+  posterPath    String?
+  createdAt     DateTime      @default(now())
+  sectorMedia   SectorMedia[] @relation("SectorMediaFile")
+  posterUsages  SectorMedia[] @relation("SectorMediaPoster")
+}
+
+model SectorMedia {
+  id              String   @id @default(cuid())
+  sectorId        String
+  sector          Sector   @relation(fields: [sectorId], references: [id], onDelete: Cascade)
+  mediaId         String
+  media           Media    @relation("SectorMediaFile", fields: [mediaId], references: [id])
+  /// cover | main | gallery | intro_video
+  role            String   @default("gallery")
+  sortOrder       Int      @default(0)
+  /// draft | published
+  layer           String   @default("draft")
+  titleAr         String   @default("")
+  titleEn         String   @default("")
+  descriptionAr   String   @default("")
+  descriptionEn   String   @default("")
+  altAr           String   @default("")
+  altEn           String   @default("")
+  /// Show title/description to public visitors
+  showCaptions    Boolean  @default(true)
+  posterMediaId   String?
+  posterMedia     Media?   @relation("SectorMediaPoster", fields: [posterMediaId], references: [id])
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  @@index([sectorId, layer])
+  @@index([mediaId])
+}
+
+model Sector {
+  id               String         @id @default(cuid())
+  slug             String         @unique
+  nameAr           String
+  nameEn           String
+  summaryAr        String         @default("")
+  summaryEn        String         @default("")
+  bodyAr           String         @default("")
+  bodyEn           String         @default("")
+  iconPath         String?
+  coverPath        String?
+  galleryJson      String         @default("[]")
+  videoPath        String?
+  contactPhone     String         @default("")
+  contactEmail     String         @default("")
+  contactWhatsapp  String         @default("")
+  ctaLabelAr       String         @default("طلب الخدمة")
+  ctaLabelEn       String         @default("Request Service")
+  ctaUrl           String         @default("/contact")
+  seoTitleAr       String         @default("")
+  seoTitleEn       String         @default("")
+  seoDescAr        String         @default("")
+  seoDescEn        String         @default("")
+  /// JSON overrides for unpublished edits (draft vs published separation)
+  draftJson        String?
+  sortOrder        Int            @default(0)
+  showInHome       Boolean        @default(true)
+  showInNav        Boolean        @default(true)
+  status           PublishStatus  @default(DRAFT)
+  pageId           String?        @unique
+  page             Page?          @relation(fields: [pageId], references: [id])
+  createdAt        DateTime       @default(now())
+  updatedAt        DateTime       @updatedAt
+  publishedAt      DateTime?
+  services         Service[]
+  projects         Project[]
+  versions         SectorVersion[]
+  mediaItems       SectorMedia[]
+  navItems         NavItem[]
+}
+
+model SectorVersion {
+  id        String   @id @default(cuid())
+  sectorId  String
+  sector    Sector   @relation(fields: [sectorId], references: [id], onDelete: Cascade)
+  label     String
+  snapshot  String
+  userId    String?
+  user      User?    @relation(fields: [userId], references: [id])
+  createdAt DateTime @default(now())
 }
 
 model Project {
-  id         String        @id @default(cuid())
-  slug       String        @unique
+  id         String         @id @default(cuid())
+  slug       String         @unique
   nameAr     String
   nameEn     String
-  summaryAr  String        @default("")
-  summaryEn  String        @default("")
-  categoryAr String        @default("")
-  categoryEn String        @default("")
-  locationAr String        @default("")
-  locationEn String        @default("")
-  featured   Boolean       @default(false)
-  status     PublishStatus @default(DRAFT)
-  sortOrder  Int           @default(0)
+  summaryAr  String         @default("")
+  summaryEn  String         @default("")
+  categoryAr String         @default("")
+  categoryEn String         @default("")
+  locationAr String         @default("")
+  locationEn String         @default("")
+  featured   Boolean        @default(false)
+  status     PublishStatus  @default(DRAFT)
+  sortOrder  Int            @default(0)
   imagePath  String?
-  createdAt  DateTime      @default(now())
-  updatedAt  DateTime      @updatedAt
+  sectorId   String?
+  sector     Sector?        @relation(fields: [sectorId], references: [id])
+  createdAt  DateTime       @default(now())
+  updatedAt  DateTime       @updatedAt
 }
 
 model Service {
-  id        String        @id @default(cuid())
-  slug      String        @unique
+  id        String         @id @default(cuid())
+  slug      String         @unique
   nameAr    String
   nameEn    String
-  summaryAr String        @default("")
-  summaryEn String        @default("")
-  bodyAr    String        @default("")
-  bodyEn    String        @default("")
-  status    PublishStatus @default(PUBLISHED)
-  sortOrder Int           @default(0)
+  summaryAr String         @default("")
+  summaryEn String         @default("")
+  bodyAr    String         @default("")
+  bodyEn    String         @default("")
+  status    PublishStatus  @default(PUBLISHED)
+  sortOrder Int            @default(0)
   imagePath String?
-  createdAt DateTime      @default(now())
-  updatedAt DateTime      @updatedAt
+  sectorId  String?
+  sector    Sector?        @relation(fields: [sectorId], references: [id])
+  createdAt DateTime       @default(now())
+  updatedAt DateTime       @updatedAt
+  navItems  NavItem[]
 }
 
 model Setting {

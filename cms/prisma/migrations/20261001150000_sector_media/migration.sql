@@ -1,0 +1,2 @@
+-- SectorMedia attachment table + Media draft/metadata fields (applied via prisma db push 2026-10-01)
+-- Kept for documentation / future migrate deploy environments.

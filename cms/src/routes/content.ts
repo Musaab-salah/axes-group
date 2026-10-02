@@ -10,7 +10,7 @@ contentRouter.use(requireAuth);
 
 contentRouter.get('/pages', async (_req, res) => {
   const pages = await prisma.page.findMany({
-    orderBy: { slug: 'asc' },
+    orderBy: [{ navSortOrder: 'asc' }, { slug: 'asc' }],
     include: { _count: { select: { blocks: true } } },
   });
   res.json({ pages });
@@ -146,8 +146,185 @@ contentRouter.post('/pages/:slug/publish', requireRole('ADMIN', 'SUPER_ADMIN'), 
   res.json({ page: updated });
 });
 
+contentRouter.put('/pages/:slug', requireRole('EDITOR', 'ADMIN', 'SUPER_ADMIN'), async (req, res) => {
+  const page = await prisma.page.findUnique({ where: { slug: req.params.slug } });
+  if (!page) {
+    res.status(404).json({ error: 'Page not found' });
+    return;
+  }
+  const parsed = z
+    .object({
+      titleAr: z.string().optional(),
+      titleEn: z.string().optional(),
+      navLabelAr: z.string().optional(),
+      navLabelEn: z.string().optional(),
+      showInHeader: z.boolean().optional(),
+      showInFooter: z.boolean().optional(),
+      navSortOrder: z.number().int().optional(),
+      slug: z.string().min(1).optional(),
+    })
+    .safeParse(req.body);
+  if (!parsed.success) {
+    res.status(400).json({ error: 'Invalid payload' });
+    return;
+  }
+
+  let nextSlug = page.slug;
+  if (parsed.data.slug && parsed.data.slug !== page.slug) {
+    const newSlug = parsed.data.slug
+      .trim()
+      .toLowerCase()
+      .replace(/[^a-z0-9-]+/g, '-')
+      .replace(/^-+|-+$/g, '');
+    if (!newSlug) {
+      res.status(400).json({ error: 'رابط غير صالح' });
+      return;
+    }
+    if (page.isHome || page.slug === 'home') {
+      res.status(400).json({ error: 'لا يمكن تغيير رابط الصفحة الرئيسية' });
+      return;
+    }
+    const clash = await prisma.page.findUnique({ where: { slug: newSlug } });
+    if (clash) {
+      res.status(409).json({ error: 'الرابط مستخدم مسبقًا' });
+      return;
+    }
+    const { pathForPage } = await import('../lib/navigation.js');
+    const fromPath = pathForPage(page.slug);
+    const toPath = pathForPage(newSlug);
+    await prisma.pageRedirect.upsert({
+      where: { fromPath },
+      update: { toPath },
+      create: { fromPath, toPath },
+    });
+    await prisma.navItem.updateMany({
+      where: { pageId: page.id },
+      data: { href: toPath },
+    });
+    nextSlug = newSlug;
+  }
+
+  const updated = await prisma.page.update({
+    where: { id: page.id },
+    data: {
+      slug: nextSlug,
+      titleAr: parsed.data.titleAr,
+      titleEn: parsed.data.titleEn,
+      navLabelAr: parsed.data.navLabelAr,
+      navLabelEn: parsed.data.navLabelEn,
+      showInHeader: parsed.data.showInHeader,
+      showInFooter: parsed.data.showInFooter,
+      navSortOrder: parsed.data.navSortOrder,
+    },
+  });
+
+  // Sync draft nav labels/flags for linked items
+  const navPatch: Record<string, unknown> = {};
+  if (parsed.data.navLabelAr !== undefined) navPatch.labelAr = parsed.data.navLabelAr;
+  if (parsed.data.navLabelEn !== undefined) navPatch.labelEn = parsed.data.navLabelEn;
+  if (parsed.data.showInHeader !== undefined) navPatch.showInHeader = parsed.data.showInHeader;
+  if (parsed.data.showInFooter !== undefined) navPatch.showInFooter = parsed.data.showInFooter;
+  if (Object.keys(navPatch).length) {
+    await prisma.navItem.updateMany({
+      where: { pageId: page.id, layer: 'draft' },
+      data: navPatch,
+    });
+  }
+
+  res.json({ page: updated });
+});
+
+contentRouter.post('/pages/:slug/unpublish', requireRole('ADMIN', 'SUPER_ADMIN'), async (req, res) => {
+  const page = await prisma.page.findUnique({ where: { slug: req.params.slug } });
+  if (!page) {
+    res.status(404).json({ error: 'Page not found' });
+    return;
+  }
+  if (page.isHome || page.slug === 'home') {
+    const alt = await prisma.page.findFirst({
+      where: { status: 'PUBLISHED', isHome: true, NOT: { id: page.id } },
+    });
+    const altHome = alt || (await prisma.page.findFirst({
+      where: { status: 'PUBLISHED', slug: { not: page.slug }, showInHeader: true },
+    }));
+    if (!alt && page.isHome) {
+      res.status(409).json({
+        error: 'لا يمكن إلغاء نشر الصفحة الرئيسية قبل تعيين صفحة رئيسية بديلة منشورة.',
+      });
+      return;
+    }
+    void altHome;
+  }
+
+  const { pathForPage, findInboundLinksToPath } = await import('../lib/navigation.js');
+  const path = pathForPage(page.slug);
+  const warnings = await findInboundLinksToPath(path);
+  if (req.query.confirm !== '1' && (warnings.contentBlocks.length || warnings.navItems.length)) {
+    res.status(409).json({
+      error: 'توجد روابط واردة إلى هذه الصفحة. أكّد الإلغاء بـ confirm=1',
+      warnings,
+    });
+    return;
+  }
+
+  const updated = await prisma.page.update({
+    where: { id: page.id },
+    data: { status: 'DRAFT', isHome: false },
+  });
+
+  // Remove from published nav; keep in draft but hide
+  await prisma.navItem.deleteMany({ where: { pageId: page.id, layer: 'published' } });
+  await prisma.navItem.updateMany({
+    where: { pageId: page.id, layer: 'draft' },
+    data: { showInHeader: false, showInFooter: false },
+  });
+
+  await writePublicContentBundle();
+  await logActivity({
+    userId: req.user?.id,
+    action: 'unpublish_page',
+    resource: 'page',
+    resourceId: page.id,
+    meta: { slug: page.slug, warnings },
+  });
+
+  res.json({ page: updated, warnings });
+});
+
+contentRouter.delete('/pages/:slug', requireRole('ADMIN', 'SUPER_ADMIN'), async (req, res) => {
+  const page = await prisma.page.findUnique({ where: { slug: req.params.slug } });
+  if (!page) {
+    res.status(404).json({ error: 'Page not found' });
+    return;
+  }
+  if (page.isHome || page.slug === 'home') {
+    res.status(409).json({ error: 'لا يمكن حذف الصفحة الرئيسية قبل تعيين بديل منشور.' });
+    return;
+  }
+  if (page.status === 'PUBLISHED') {
+    res.status(409).json({ error: 'ألغِ نشر الصفحة قبل حذفها.' });
+    return;
+  }
+  await prisma.navItem.deleteMany({ where: { pageId: page.id } });
+  await prisma.page.delete({ where: { id: page.id } });
+  res.json({ ok: true });
+});
+
+contentRouter.post('/pages/reorder', requireRole('EDITOR', 'ADMIN', 'SUPER_ADMIN'), async (req, res) => {
+  const parsed = z.object({ ids: z.array(z.string()) }).safeParse(req.body);
+  if (!parsed.success) {
+    res.status(400).json({ error: 'Invalid payload' });
+    return;
+  }
+  let i = 0;
+  for (const id of parsed.data.ids) {
+    await prisma.page.update({ where: { id }, data: { navSortOrder: i++ } });
+  }
+  res.json({ ok: true });
+});
+
 contentRouter.get('/dashboard', async (_req, res) => {
-  const [publishedPages, draftPages, projects, services, images, videos, inquiries, activities] =
+  const [publishedPages, draftPages, projects, services, images, videos, inquiries, activities, publishedSectors, draftSectors] =
     await Promise.all([
       prisma.page.count({ where: { status: 'PUBLISHED' } }),
       prisma.page.count({ where: { status: 'DRAFT' } }),
@@ -161,6 +338,8 @@ contentRouter.get('/dashboard', async (_req, res) => {
         orderBy: { createdAt: 'desc' },
         include: { user: { select: { name: true, email: true } } },
       }),
+      prisma.sector.count({ where: { status: 'PUBLISHED' } }),
+      prisma.sector.count({ where: { status: 'DRAFT' } }),
     ]);
 
   res.json({
@@ -172,6 +351,8 @@ contentRouter.get('/dashboard', async (_req, res) => {
       images,
       videos,
       unreadInquiries: inquiries,
+      publishedSectors,
+      draftSectors,
     },
     activities,
   });

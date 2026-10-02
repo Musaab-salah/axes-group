@@ -11,8 +11,8 @@
       "type": "text"
     },
     "hero.subtitle": {
-      "ar": "اكسس قروب — مقاولات وهندسة مدنية وبنية تحتية بمتابعة ميدانية دقيقة.",
-      "en": "AXES GROUP — contracting, civil engineering and infrastructure with precise site oversight.",
+      "ar": "اكسس قروب — مجموعة لأنشطة متعددة تشمل الإنشاءات والهندسة وقطاعات أعمال أخرى.",
+      "en": "AXES GROUP — a diversified group spanning construction, engineering and other business sectors.",
       "type": "text"
     },
     "hero.title": {
@@ -120,6 +120,496 @@
       "en": "assets/exterior.jpg",
       "type": "poster"
     },
+    "home.text.0": {
+      "ar": "الرئيسية",
+      "en": "Home",
+      "type": "text"
+    },
+    "home.text.1": {
+      "ar": "من نحن",
+      "en": "About",
+      "type": "text"
+    },
+    "home.text.10": {
+      "ar": "إدارة المشاريع",
+      "en": "Project Management",
+      "type": "text"
+    },
+    "home.text.11": {
+      "ar": "المنشآت الصناعية",
+      "en": "Industrial Construction",
+      "type": "text"
+    },
+    "home.text.12": {
+      "ar": "طلب عرض",
+      "en": "Request a Quote",
+      "type": "text"
+    },
+    "home.text.13": {
+      "ar": "الرئيسية",
+      "en": "Home",
+      "type": "text"
+    },
+    "home.text.14": {
+      "ar": "من نحن",
+      "en": "About",
+      "type": "text"
+    },
+    "home.text.15": {
+      "ar": "الخدمات",
+      "en": "Services",
+      "type": "text"
+    },
+    "home.text.16": {
+      "ar": "المشاريع",
+      "en": "Projects",
+      "type": "text"
+    },
+    "home.text.17": {
+      "ar": "الجودة والسلامة",
+      "en": "Quality &amp; Safety",
+      "type": "text"
+    },
+    "home.text.18": {
+      "ar": "اتصل بنا",
+      "en": "Contact",
+      "type": "text"
+    },
+    "home.text.19": {
+      "ar": "تميّز في الإنشاءات والبنية التحتية والهندسة المدنية، من التصور الأول إلى التسليم.",
+      "en": "Delivering excellence in construction, infrastructure, and civil engineering.",
+      "type": "text"
+    },
+    "home.text.2": {
+      "ar": "الخدمات",
+      "en": "Services",
+      "type": "text"
+    },
+    "home.text.20": {
+      "ar": "استكشف المشاريع",
+      "en": "Explore Projects",
+      "type": "text"
+    },
+    "home.text.21": {
+      "ar": "الهندسة · التنفيذ · المستقبل",
+      "en": "Engineering · Delivery · Future",
+      "type": "text"
+    },
+    "home.text.22": {
+      "ar": "تعرف على الشركة",
+      "en": "Discover the Company",
+      "type": "text"
+    },
+    "home.text.23": {
+      "ar": "متابعة في موقع العمل",
+      "en": "On-site oversight",
+      "type": "text"
+    },
+    "home.text.24": {
+      "ar": "مجالات خدمات رئيسية",
+      "en": "Core service areas",
+      "type": "text"
+    },
+    "home.text.25": {
+      "ar": "متابعة هندسية في الموقع",
+      "en": "On-site engineering oversight",
+      "type": "text"
+    },
+    "home.text.26": {
+      "ar": "لغتان للتواصل",
+      "en": "Languages of communication",
+      "type": "text"
+    },
+    "home.text.27": {
+      "ar": "خدمات هندسية متكاملة",
+      "en": "Integrated capabilities",
+      "type": "text"
+    },
+    "home.text.28": {
+      "ar": "من الأساسات إلى إدارة المشاريع، نربط التخصصات بقرار تنفيذي واضح.",
+      "en": "From foundations to project delivery, our disciplines work together on site.",
+      "type": "text"
+    },
+    "home.text.29": {
+      "ar": "المقاولات العامة",
+      "en": "General Contracting",
+      "type": "text"
+    },
+    "home.text.3": {
+      "ar": "المشاريع",
+      "en": "Projects",
+      "type": "text"
+    },
+    "home.text.30": {
+      "ar": "تنفيذ متكامل للمباني والأعمال الإنشائية، من تجهيز الموقع إلى التسليم.",
+      "en": "Integrated building delivery from site preparation to completion.",
+      "type": "text"
+    },
+    "home.text.31": {
+      "ar": "ناقش مشروعك",
+      "en": "Discuss a Project",
+      "type": "text"
+    },
+    "home.text.32": {
+      "ar": "الهندسة المدنية",
+      "en": "Civil Engineering",
+      "type": "text"
+    },
+    "home.text.33": {
+      "ar": "حلول للأعمال المدنية والحفر والأساسات والهياكل الخرسانية.",
+      "en": "Civil works across excavation, foundations and concrete structures.",
+      "type": "text"
+    },
+    "home.text.34": {
+      "ar": "ناقش مشروعك",
+      "en": "Discuss a Project",
+      "type": "text"
+    },
+    "home.text.35": {
+      "ar": "تطوير البنية التحتية",
+      "en": "Infrastructure Development",
+      "type": "text"
+    },
+    "home.text.36": {
+      "ar": "أعمال المواقع والمرافق التي تدعم المشاريع والمجتمعات.",
+      "en": "Site and facility works that support projects and communities.",
+      "type": "text"
+    },
+    "home.text.37": {
+      "ar": "ناقش مشروعك",
+      "en": "Discuss a Project",
+      "type": "text"
+    },
+    "home.text.38": {
+      "ar": "صورة توضيحية",
+      "en": "Illustrative image",
+      "type": "text"
+    },
+    "home.text.39": {
+      "ar": "الطرق والجسور",
+      "en": "Roads &amp; Bridges",
+      "type": "text"
+    },
+    "home.text.4": {
+      "ar": "الجودة والسلامة",
+      "en": "Quality &amp; Safety",
+      "type": "text"
+    },
+    "home.text.40": {
+      "ar": "تخطيط وتنفيذ أعمال الطرق والجسور ضمن نطاق المشاريع الهندسية.",
+      "en": "Planning and delivery for road and bridge works.",
+      "type": "text"
+    },
+    "home.text.41": {
+      "ar": "ناقش مشروعك",
+      "en": "Discuss a Project",
+      "type": "text"
+    },
+    "home.text.42": {
+      "ar": "إدارة المشاريع",
+      "en": "Project Management",
+      "type": "text"
+    },
+    "home.text.43": {
+      "ar": "تنسيق فرق التنفيذ ومتابعة الجودة والتقدم من موقع العمل.",
+      "en": "Coordinating site teams, quality and delivery progress.",
+      "type": "text"
+    },
+    "home.text.44": {
+      "ar": "ناقش مشروعك",
+      "en": "Discuss a Project",
+      "type": "text"
+    },
+    "home.text.45": {
+      "ar": "صورة توضيحية",
+      "en": "Illustrative image",
+      "type": "text"
+    },
+    "home.text.46": {
+      "ar": "المنشآت الصناعية",
+      "en": "Industrial Construction",
+      "type": "text"
+    },
+    "home.text.47": {
+      "ar": "حلول إنشائية للمواقع والمرافق الصناعية.",
+      "en": "Construction solutions for industrial facilities and sites.",
+      "type": "text"
+    },
+    "home.text.48": {
+      "ar": "ناقش مشروعك",
+      "en": "Discuss a Project",
+      "type": "text"
+    },
+    "home.text.49": {
+      "ar": "أعمال من أرض الواقع",
+      "en": "Work from the field",
+      "type": "text"
+    },
+    "home.text.5": {
+      "ar": "اتصل بنا",
+      "en": "Contact",
+      "type": "text"
+    },
+    "home.text.50": {
+      "ar": "عرض المشاريع",
+      "en": "View Projects",
+      "type": "text"
+    },
+    "home.text.51": {
+      "ar": "مشروع مختار",
+      "en": "Selected work",
+      "type": "text"
+    },
+    "home.text.52": {
+      "ar": "تنفيذ مبنى",
+      "en": "Building Construction",
+      "type": "text"
+    },
+    "home.text.53": {
+      "ar": "من الهيكل الإنشائي إلى الواجهة المنجزة.",
+      "en": "From structural work to a completed exterior.",
+      "type": "text"
+    },
+    "home.text.54": {
+      "ar": "مشروع مختار",
+      "en": "Selected work",
+      "type": "text"
+    },
+    "home.text.55": {
+      "ar": "المكتب المتحرك",
+      "en": "On-site Engineering Office",
+      "type": "text"
+    },
+    "home.text.56": {
+      "ar": "مساحة عمل للمتابعة الهندسية في موقع المشروع.",
+      "en": "A working base for on-site engineering oversight.",
+      "type": "text"
+    },
+    "home.text.57": {
+      "ar": "مشروع مختار",
+      "en": "Selected work",
+      "type": "text"
+    },
+    "home.text.58": {
+      "ar": "صيانة محطة بشائر",
+      "en": "Bashair Station Maintenance",
+      "type": "text"
+    },
+    "home.text.59": {
+      "ar": "مشاهد من أعمال الصيانة الواردة في بروفايل الشركة.",
+      "en": "Maintenance work documented in the company profile.",
+      "type": "text"
+    },
+    "home.text.6": {
+      "ar": "المقاولات العامة",
+      "en": "General Contracting",
+      "type": "text"
+    },
+    "home.text.60": {
+      "ar": "الجودة والسلامة ضمن كل قرار",
+      "en": "Quality and safety in every decision",
+      "type": "text"
+    },
+    "home.text.61": {
+      "ar": "تبدأ النتائج الموثوقة من موقع عمل منظم، ومتابعة للمواد والتفاصيل، وتواصل واضح بين فرق المشروع.",
+      "en": "Reliable outcomes begin with organized sites, attention to materials and clear coordination between project teams.",
+      "type": "text"
+    },
+    "home.text.62": {
+      "ar": "منهجنا في التنفيذ",
+      "en": "Our Approach",
+      "type": "text"
+    },
+    "home.text.63": {
+      "ar": "السلامة أولًا",
+      "en": "Safety First",
+      "type": "text"
+    },
+    "home.text.64": {
+      "ar": "تنظيم الموقع ومتابعة ضوابط السلامة أثناء التنفيذ.",
+      "en": "Organized sites and attention to safe execution.",
+      "type": "text"
+    },
+    "home.text.65": {
+      "ar": "ضبط الجودة",
+      "en": "Quality Control",
+      "type": "text"
+    },
+    "home.text.66": {
+      "ar": "مراجعة التفاصيل والمواد خلال مراحل العمل.",
+      "en": "Reviewing details and materials throughout delivery.",
+      "type": "text"
+    },
+    "home.text.67": {
+      "ar": "الاستدامة",
+      "en": "Sustainability",
+      "type": "text"
+    },
+    "home.text.68": {
+      "ar": "التخطيط لاستخدام الموارد بعناية وتقليل الهدر.",
+      "en": "Careful resource planning and less waste.",
+      "type": "text"
+    },
+    "home.text.69": {
+      "ar": "المسؤولية البيئية",
+      "en": "Environmental Responsibility",
+      "type": "text"
+    },
+    "home.text.7": {
+      "ar": "الهندسة المدنية",
+      "en": "Civil Engineering",
+      "type": "text"
+    },
+    "home.text.70": {
+      "ar": "مراعاة أثر الأعمال على الموقع والمحيط.",
+      "en": "Considering the impact of work on the site and its surroundings.",
+      "type": "text"
+    },
+    "home.text.71": {
+      "ar": "رؤى من موقع العمل",
+      "en": "Insights from the field",
+      "type": "text"
+    },
+    "home.text.72": {
+      "ar": "موضوعات مختصرة عن منهج العمل والتخطيط والتنفيذ.",
+      "en": "A closer look at planning, delivery and on-site practice.",
+      "type": "text"
+    },
+    "home.text.73": {
+      "ar": "لماذا تبدأ الجودة قبل صب الخرسانة؟",
+      "en": "Why quality starts before the concrete pour",
+      "type": "text"
+    },
+    "home.text.74": {
+      "ar": "كيف تدعم المتابعة الميدانية قرارات التنفيذ؟",
+      "en": "How site oversight supports better decisions",
+      "type": "text"
+    },
+    "home.text.75": {
+      "ar": "من تجهيز الموقع إلى تنفيذ الأساسات",
+      "en": "From site preparation to foundation work",
+      "type": "text"
+    },
+    "home.text.76": {
+      "ar": "شكل العمل في الموقع",
+      "en": "How work looks on site",
+      "type": "text"
+    },
+    "home.text.77": {
+      "ar": "عواكس وخوذات وعمل جماعي — صور حقيقية من مشاريعنا.",
+      "en": "Reflective gear, hard hats and teamwork — real photos from our projects.",
+      "type": "text"
+    },
+    "home.text.78": {
+      "ar": "السلامة جزء من التنفيذ",
+      "en": "Safety built into delivery",
+      "type": "text"
+    },
+    "home.text.79": {
+      "ar": "عمل جماعي",
+      "en": "Teamwork",
+      "type": "text"
+    },
+    "home.text.8": {
+      "ar": "البنية التحتية",
+      "en": "Infrastructure",
+      "type": "text"
+    },
+    "home.text.80": {
+      "ar": "دقة ميدانية",
+      "en": "Field precision",
+      "type": "text"
+    },
+    "home.text.81": {
+      "ar": "مشاريع على أرض الواقع",
+      "en": "Projects on the ground",
+      "type": "text"
+    },
+    "home.text.82": {
+      "ar": "تعرّف على منهج السلامة",
+      "en": "See our safety approach",
+      "type": "text"
+    },
+    "home.text.83": {
+      "ar": "لنبدأ مشروعك القادم",
+      "en": "Let’s build your next project",
+      "type": "text"
+    },
+    "home.text.84": {
+      "ar": "تحدث إلى فريقنا",
+      "en": "Speak to Our Team",
+      "type": "text"
+    },
+    "home.text.85": {
+      "ar": "نبني ونطوّر وننفّذ برؤية هندسية مسؤولة، من الفكرة إلى التسليم.",
+      "en": "Building and delivering with accountable engineering, from concept to completion.",
+      "type": "text"
+    },
+    "home.text.86": {
+      "ar": "روابط سريعة",
+      "en": "Quick Links",
+      "type": "text"
+    },
+    "home.text.87": {
+      "ar": "من نحن",
+      "en": "About",
+      "type": "text"
+    },
+    "home.text.88": {
+      "ar": "الخدمات",
+      "en": "Services",
+      "type": "text"
+    },
+    "home.text.89": {
+      "ar": "المشاريع",
+      "en": "Projects",
+      "type": "text"
+    },
+    "home.text.9": {
+      "ar": "الطرق والجسور",
+      "en": "Roads &amp; Bridges",
+      "type": "text"
+    },
+    "home.text.90": {
+      "ar": "الجودة والسلامة",
+      "en": "Quality &amp; Safety",
+      "type": "text"
+    },
+    "home.text.91": {
+      "ar": "خدماتنا",
+      "en": "Services",
+      "type": "text"
+    },
+    "home.text.92": {
+      "ar": "المقاولات العامة",
+      "en": "General Contracting",
+      "type": "text"
+    },
+    "home.text.93": {
+      "ar": "الهندسة المدنية",
+      "en": "Civil Engineering",
+      "type": "text"
+    },
+    "home.text.94": {
+      "ar": "إدارة المشاريع",
+      "en": "Project Management",
+      "type": "text"
+    },
+    "home.text.95": {
+      "ar": "تواصل معنا",
+      "en": "Contact",
+      "type": "text"
+    },
+    "home.text.96": {
+      "ar": "الخرطوم، السودان",
+      "en": "Khartoum, Sudan",
+      "type": "text"
+    },
+    "home.text.97": {
+      "ar": "نبني الغد، اليوم",
+      "en": "Building Tomorrow, Today",
+      "type": "text"
+    },
     "home.video.0": {
       "ar": "assets/construction.mp4",
       "en": "assets/construction.mp4",
@@ -186,6 +676,286 @@
       "ar": "assets/chairman.jpg",
       "en": "assets/chairman.jpg",
       "type": "poster"
+    },
+    "about.text.0": {
+      "ar": "الرئيسية",
+      "en": "Home",
+      "type": "text"
+    },
+    "about.text.1": {
+      "ar": "من نحن",
+      "en": "About",
+      "type": "text"
+    },
+    "about.text.10": {
+      "ar": "إدارة المشاريع",
+      "en": "Project Management",
+      "type": "text"
+    },
+    "about.text.11": {
+      "ar": "المنشآت الصناعية",
+      "en": "Industrial Construction",
+      "type": "text"
+    },
+    "about.text.12": {
+      "ar": "طلب عرض",
+      "en": "Request a Quote",
+      "type": "text"
+    },
+    "about.text.13": {
+      "ar": "الرئيسية",
+      "en": "Home",
+      "type": "text"
+    },
+    "about.text.14": {
+      "ar": "من نحن",
+      "en": "About",
+      "type": "text"
+    },
+    "about.text.15": {
+      "ar": "الخدمات",
+      "en": "Services",
+      "type": "text"
+    },
+    "about.text.16": {
+      "ar": "المشاريع",
+      "en": "Projects",
+      "type": "text"
+    },
+    "about.text.17": {
+      "ar": "الجودة والسلامة",
+      "en": "Quality &amp; Safety",
+      "type": "text"
+    },
+    "about.text.18": {
+      "ar": "اتصل بنا",
+      "en": "Contact",
+      "type": "text"
+    },
+    "about.text.19": {
+      "ar": "نحوّل الرؤية إلى مشاريع|على أرض الواقع",
+      "en": "Turning vision into projects|built on the ground",
+      "type": "text"
+    },
+    "about.text.2": {
+      "ar": "الخدمات",
+      "en": "Services",
+      "type": "text"
+    },
+    "about.text.20": {
+      "ar": "نبني علاقات عمل طويلة الأمد عبر التنفيذ المسؤول والمتابعة الدقيقة.",
+      "en": "Building lasting relationships through responsible delivery and careful oversight.",
+      "type": "text"
+    },
+    "about.text.21": {
+      "ar": "شريك هندسي من التخطيط إلى الإنجاز",
+      "en": "An engineering partner from plan to completion",
+      "type": "text"
+    },
+    "about.text.22": {
+      "ar": "تقدم اكسس قروب خدمات البناء والهندسة المدنية والتشطيبات والصيانة وإدارة الأعمال الميدانية في السودان. ويعرض بروفايل الشركة أعمالًا فعلية في الحفر والخرسانة والمباني والصيانة.",
+      "en": "AXES GROUP works across construction, civil engineering, finishing, maintenance and on-site project delivery in Sudan. Our company profile documents excavation, concrete, building and maintenance work.",
+      "type": "text"
+    },
+    "about.text.23": {
+      "ar": "رسالتنا",
+      "en": "Our Mission",
+      "type": "text"
+    },
+    "about.text.24": {
+      "ar": "تنفيذ مشاريع هندسية بعناية، مع التركيز على الجودة والتنسيق والمسؤولية في الموقع.",
+      "en": "To deliver engineering projects with care, quality, coordination and accountability on site.",
+      "type": "text"
+    },
+    "about.text.25": {
+      "ar": "رؤيتنا",
+      "en": "Our Vision",
+      "type": "text"
+    },
+    "about.text.26": {
+      "ar": "المساهمة في بناء مرافق ومساحات تدعم احتياجات الغد.",
+      "en": "To help build facilities and places that serve tomorrow’s needs.",
+      "type": "text"
+    },
+    "about.text.27": {
+      "ar": "قيمنا",
+      "en": "Our Values",
+      "type": "text"
+    },
+    "about.text.28": {
+      "ar": "السلامة، النزاهة، جودة التنفيذ، والتعاون مع شركائنا.",
+      "en": "Safety, integrity, quality of execution and collaboration with our partners.",
+      "type": "text"
+    },
+    "about.text.29": {
+      "ar": "فريق يعمل معًا في الموقع",
+      "en": "A team that works together on site",
+      "type": "text"
+    },
+    "about.text.3": {
+      "ar": "المشاريع",
+      "en": "Projects",
+      "type": "text"
+    },
+    "about.text.30": {
+      "ar": "الالتزام بالسلامة والعمل الجماعي يظهر في كل مرحلة من التنفيذ.",
+      "en": "Safety discipline and teamwork show up at every stage of delivery.",
+      "type": "text"
+    },
+    "about.text.31": {
+      "ar": "فريق واحد · سلامة واحدة",
+      "en": "One team · one safety standard",
+      "type": "text"
+    },
+    "about.text.32": {
+      "ar": "تعاون يومي",
+      "en": "Daily collaboration",
+      "type": "text"
+    },
+    "about.text.33": {
+      "ar": "تنفيذ جماعي",
+      "en": "Collective delivery",
+      "type": "text"
+    },
+    "about.text.34": {
+      "ar": "متابعة دقيقة والوقوف على الأنشطة",
+      "en": "Precise follow-up and standing on activities",
+      "type": "text"
+    },
+    "about.text.35": {
+      "ar": "في الموقع، المتابعة ليست زيارة عابرة — بل وقوف مباشر على الأنشطة، مراجعة المخططات، والتأكد من أن التنفيذ يسير وفق الجودة والسلامة في كل مرحلة.",
+      "en": "On site, oversight is not a brief visit — it is standing on the activities, reviewing the plans, and making sure delivery stays aligned with quality and safety at every stage.",
+      "type": "text"
+    },
+    "about.text.36": {
+      "ar": "مراجعة ميدانية مع المخططات",
+      "en": "Field review against the plans",
+      "type": "text"
+    },
+    "about.text.37": {
+      "ar": "متابعة يومية لأنشطة التنفيذ",
+      "en": "Daily follow-up on delivery activities",
+      "type": "text"
+    },
+    "about.text.38": {
+      "ar": "التزام بالسلامة والعواكس في الموقع",
+      "en": "Safety and high-visibility gear on site",
+      "type": "text"
+    },
+    "about.text.39": {
+      "ar": "متابعة هندسية مباشرة في الموقع",
+      "en": "Direct engineering follow-up on site",
+      "type": "text"
+    },
+    "about.text.4": {
+      "ar": "الجودة والسلامة",
+      "en": "Quality &amp; Safety",
+      "type": "text"
+    },
+    "about.text.40": {
+      "ar": "كلمة رئيس مجلس الإدارة",
+      "en": "A Message from the Chairman",
+      "type": "text"
+    },
+    "about.text.41": {
+      "ar": "م. خالد النويري",
+      "en": "Eng. Khalid Al-Nuwairi",
+      "type": "text"
+    },
+    "about.text.42": {
+      "ar": "رئيس مجلس الإدارة",
+      "en": "Chairman of the Board",
+      "type": "text"
+    },
+    "about.text.43": {
+      "ar": "نبني ونطوّر وننفّذ برؤية هندسية مسؤولة، من الفكرة إلى التسليم.",
+      "en": "Building and delivering with accountable engineering, from concept to completion.",
+      "type": "text"
+    },
+    "about.text.44": {
+      "ar": "روابط سريعة",
+      "en": "Quick Links",
+      "type": "text"
+    },
+    "about.text.45": {
+      "ar": "من نحن",
+      "en": "About",
+      "type": "text"
+    },
+    "about.text.46": {
+      "ar": "الخدمات",
+      "en": "Services",
+      "type": "text"
+    },
+    "about.text.47": {
+      "ar": "المشاريع",
+      "en": "Projects",
+      "type": "text"
+    },
+    "about.text.48": {
+      "ar": "الجودة والسلامة",
+      "en": "Quality &amp; Safety",
+      "type": "text"
+    },
+    "about.text.49": {
+      "ar": "خدماتنا",
+      "en": "Services",
+      "type": "text"
+    },
+    "about.text.5": {
+      "ar": "اتصل بنا",
+      "en": "Contact",
+      "type": "text"
+    },
+    "about.text.50": {
+      "ar": "المقاولات العامة",
+      "en": "General Contracting",
+      "type": "text"
+    },
+    "about.text.51": {
+      "ar": "الهندسة المدنية",
+      "en": "Civil Engineering",
+      "type": "text"
+    },
+    "about.text.52": {
+      "ar": "إدارة المشاريع",
+      "en": "Project Management",
+      "type": "text"
+    },
+    "about.text.53": {
+      "ar": "تواصل معنا",
+      "en": "Contact",
+      "type": "text"
+    },
+    "about.text.54": {
+      "ar": "الخرطوم، السودان",
+      "en": "Khartoum, Sudan",
+      "type": "text"
+    },
+    "about.text.55": {
+      "ar": "نبني الغد، اليوم",
+      "en": "Building Tomorrow, Today",
+      "type": "text"
+    },
+    "about.text.6": {
+      "ar": "المقاولات العامة",
+      "en": "General Contracting",
+      "type": "text"
+    },
+    "about.text.7": {
+      "ar": "الهندسة المدنية",
+      "en": "Civil Engineering",
+      "type": "text"
+    },
+    "about.text.8": {
+      "ar": "البنية التحتية",
+      "en": "Infrastructure",
+      "type": "text"
+    },
+    "about.text.9": {
+      "ar": "الطرق والجسور",
+      "en": "Roads &amp; Bridges",
+      "type": "text"
     },
     "about.video.0": {
       "ar": "assets/chairman-message.mp4",
@@ -263,6 +1033,321 @@
       "ar": "assets/service-fence.webp",
       "en": "assets/service-fence.webp",
       "type": "image"
+    },
+    "services.text.0": {
+      "ar": "الرئيسية",
+      "en": "Home",
+      "type": "text"
+    },
+    "services.text.1": {
+      "ar": "من نحن",
+      "en": "About",
+      "type": "text"
+    },
+    "services.text.10": {
+      "ar": "إدارة المشاريع",
+      "en": "Project Management",
+      "type": "text"
+    },
+    "services.text.11": {
+      "ar": "المنشآت الصناعية",
+      "en": "Industrial Construction",
+      "type": "text"
+    },
+    "services.text.12": {
+      "ar": "طلب عرض",
+      "en": "Request a Quote",
+      "type": "text"
+    },
+    "services.text.13": {
+      "ar": "الرئيسية",
+      "en": "Home",
+      "type": "text"
+    },
+    "services.text.14": {
+      "ar": "من نحن",
+      "en": "About",
+      "type": "text"
+    },
+    "services.text.15": {
+      "ar": "الخدمات",
+      "en": "Services",
+      "type": "text"
+    },
+    "services.text.16": {
+      "ar": "المشاريع",
+      "en": "Projects",
+      "type": "text"
+    },
+    "services.text.17": {
+      "ar": "الجودة والسلامة",
+      "en": "Quality &amp; Safety",
+      "type": "text"
+    },
+    "services.text.18": {
+      "ar": "اتصل بنا",
+      "en": "Contact",
+      "type": "text"
+    },
+    "services.text.19": {
+      "ar": "خدماتنا",
+      "en": "Our Services",
+      "type": "text"
+    },
+    "services.text.2": {
+      "ar": "الخدمات",
+      "en": "Services",
+      "type": "text"
+    },
+    "services.text.20": {
+      "ar": "تخصصات مترابطة لمشاريع البناء والبنية التحتية.",
+      "en": "Connected capabilities for construction and infrastructure projects.",
+      "type": "text"
+    },
+    "services.text.21": {
+      "ar": "من الفكرة إلى الموقع",
+      "en": "From concept to site",
+      "type": "text"
+    },
+    "services.text.22": {
+      "ar": "صور الطرق والجسور والمنشآت الصناعية توضيحية، بينما بقية الصور من مواد الشركة.",
+      "en": "Road, bridge and industrial images are illustrative; the other images come from company material.",
+      "type": "text"
+    },
+    "services.text.23": {
+      "ar": "المقاولات العامة",
+      "en": "General Contracting",
+      "type": "text"
+    },
+    "services.text.24": {
+      "ar": "تنفيذ متكامل للمباني والأعمال الإنشائية، من تجهيز الموقع إلى التسليم.",
+      "en": "Integrated building delivery from site preparation to completion.",
+      "type": "text"
+    },
+    "services.text.25": {
+      "ar": "ناقش مشروعك",
+      "en": "Discuss a Project",
+      "type": "text"
+    },
+    "services.text.26": {
+      "ar": "الهندسة المدنية",
+      "en": "Civil Engineering",
+      "type": "text"
+    },
+    "services.text.27": {
+      "ar": "حلول للأعمال المدنية والحفر والأساسات والهياكل الخرسانية.",
+      "en": "Civil works across excavation, foundations and concrete structures.",
+      "type": "text"
+    },
+    "services.text.28": {
+      "ar": "ناقش مشروعك",
+      "en": "Discuss a Project",
+      "type": "text"
+    },
+    "services.text.29": {
+      "ar": "تطوير البنية التحتية",
+      "en": "Infrastructure Development",
+      "type": "text"
+    },
+    "services.text.3": {
+      "ar": "المشاريع",
+      "en": "Projects",
+      "type": "text"
+    },
+    "services.text.30": {
+      "ar": "أعمال المواقع والمرافق التي تدعم المشاريع والمجتمعات.",
+      "en": "Site and facility works that support projects and communities.",
+      "type": "text"
+    },
+    "services.text.31": {
+      "ar": "ناقش مشروعك",
+      "en": "Discuss a Project",
+      "type": "text"
+    },
+    "services.text.32": {
+      "ar": "صورة توضيحية",
+      "en": "Illustrative image",
+      "type": "text"
+    },
+    "services.text.33": {
+      "ar": "الطرق والجسور",
+      "en": "Roads &amp; Bridges",
+      "type": "text"
+    },
+    "services.text.34": {
+      "ar": "تخطيط وتنفيذ أعمال الطرق والجسور ضمن نطاق المشاريع الهندسية.",
+      "en": "Planning and delivery for road and bridge works.",
+      "type": "text"
+    },
+    "services.text.35": {
+      "ar": "ناقش مشروعك",
+      "en": "Discuss a Project",
+      "type": "text"
+    },
+    "services.text.36": {
+      "ar": "إدارة المشاريع",
+      "en": "Project Management",
+      "type": "text"
+    },
+    "services.text.37": {
+      "ar": "تنسيق فرق التنفيذ ومتابعة الجودة والتقدم من موقع العمل.",
+      "en": "Coordinating site teams, quality and delivery progress.",
+      "type": "text"
+    },
+    "services.text.38": {
+      "ar": "ناقش مشروعك",
+      "en": "Discuss a Project",
+      "type": "text"
+    },
+    "services.text.39": {
+      "ar": "صورة توضيحية",
+      "en": "Illustrative image",
+      "type": "text"
+    },
+    "services.text.4": {
+      "ar": "الجودة والسلامة",
+      "en": "Quality &amp; Safety",
+      "type": "text"
+    },
+    "services.text.40": {
+      "ar": "المنشآت الصناعية",
+      "en": "Industrial Construction",
+      "type": "text"
+    },
+    "services.text.41": {
+      "ar": "حلول إنشائية للمواقع والمرافق الصناعية.",
+      "en": "Construction solutions for industrial facilities and sites.",
+      "type": "text"
+    },
+    "services.text.42": {
+      "ar": "ناقش مشروعك",
+      "en": "Discuss a Project",
+      "type": "text"
+    },
+    "services.text.43": {
+      "ar": "خدمات متخصصة في الموقع",
+      "en": "Additional site services",
+      "type": "text"
+    },
+    "services.text.44": {
+      "ar": "مكتب هندسي متحرك",
+      "en": "Mobile Site Office",
+      "type": "text"
+    },
+    "services.text.45": {
+      "ar": "مكتب في موقع العمل مع مهندس للمراقبة والمتابعة على مدار 24 ساعة.",
+      "en": "An on-site base with an engineer monitoring and following work around the clock.",
+      "type": "text"
+    },
+    "services.text.46": {
+      "ar": "كاميرات المراقبة",
+      "en": "CCTV Installation",
+      "type": "text"
+    },
+    "services.text.47": {
+      "ar": "تركيب احترافي لكاميرات المراقبة لحماية المباني والمواقع. الصورة توضيحية.",
+      "en": "Professional CCTV installation for buildings and sites. Illustrative image.",
+      "type": "text"
+    },
+    "services.text.48": {
+      "ar": "حماية المحيط",
+      "en": "Perimeter Security",
+      "type": "text"
+    },
+    "services.text.49": {
+      "ar": "تركيب الأسلاك الشائكة لحماية محيط المبنى. الصورة توضيحية.",
+      "en": "Barbed-wire installation to secure building perimeters. Illustrative image.",
+      "type": "text"
+    },
+    "services.text.5": {
+      "ar": "اتصل بنا",
+      "en": "Contact",
+      "type": "text"
+    },
+    "services.text.50": {
+      "ar": "نبني ونطوّر وننفّذ برؤية هندسية مسؤولة، من الفكرة إلى التسليم.",
+      "en": "Building and delivering with accountable engineering, from concept to completion.",
+      "type": "text"
+    },
+    "services.text.51": {
+      "ar": "روابط سريعة",
+      "en": "Quick Links",
+      "type": "text"
+    },
+    "services.text.52": {
+      "ar": "من نحن",
+      "en": "About",
+      "type": "text"
+    },
+    "services.text.53": {
+      "ar": "الخدمات",
+      "en": "Services",
+      "type": "text"
+    },
+    "services.text.54": {
+      "ar": "المشاريع",
+      "en": "Projects",
+      "type": "text"
+    },
+    "services.text.55": {
+      "ar": "الجودة والسلامة",
+      "en": "Quality &amp; Safety",
+      "type": "text"
+    },
+    "services.text.56": {
+      "ar": "خدماتنا",
+      "en": "Services",
+      "type": "text"
+    },
+    "services.text.57": {
+      "ar": "المقاولات العامة",
+      "en": "General Contracting",
+      "type": "text"
+    },
+    "services.text.58": {
+      "ar": "الهندسة المدنية",
+      "en": "Civil Engineering",
+      "type": "text"
+    },
+    "services.text.59": {
+      "ar": "إدارة المشاريع",
+      "en": "Project Management",
+      "type": "text"
+    },
+    "services.text.6": {
+      "ar": "المقاولات العامة",
+      "en": "General Contracting",
+      "type": "text"
+    },
+    "services.text.60": {
+      "ar": "تواصل معنا",
+      "en": "Contact",
+      "type": "text"
+    },
+    "services.text.61": {
+      "ar": "الخرطوم، السودان",
+      "en": "Khartoum, Sudan",
+      "type": "text"
+    },
+    "services.text.62": {
+      "ar": "نبني الغد، اليوم",
+      "en": "Building Tomorrow, Today",
+      "type": "text"
+    },
+    "services.text.7": {
+      "ar": "الهندسة المدنية",
+      "en": "Civil Engineering",
+      "type": "text"
+    },
+    "services.text.8": {
+      "ar": "البنية التحتية",
+      "en": "Infrastructure",
+      "type": "text"
+    },
+    "services.text.9": {
+      "ar": "الطرق والجسور",
+      "en": "Roads &amp; Bridges",
+      "type": "text"
     }
   },
   "projects": {
@@ -401,6 +1486,436 @@
       "en": "assets/interior.jpg",
       "type": "poster"
     },
+    "projects.text.0": {
+      "ar": "الرئيسية",
+      "en": "Home",
+      "type": "text"
+    },
+    "projects.text.1": {
+      "ar": "من نحن",
+      "en": "About",
+      "type": "text"
+    },
+    "projects.text.10": {
+      "ar": "إدارة المشاريع",
+      "en": "Project Management",
+      "type": "text"
+    },
+    "projects.text.11": {
+      "ar": "المنشآت الصناعية",
+      "en": "Industrial Construction",
+      "type": "text"
+    },
+    "projects.text.12": {
+      "ar": "طلب عرض",
+      "en": "Request a Quote",
+      "type": "text"
+    },
+    "projects.text.13": {
+      "ar": "الرئيسية",
+      "en": "Home",
+      "type": "text"
+    },
+    "projects.text.14": {
+      "ar": "من نحن",
+      "en": "About",
+      "type": "text"
+    },
+    "projects.text.15": {
+      "ar": "الخدمات",
+      "en": "Services",
+      "type": "text"
+    },
+    "projects.text.16": {
+      "ar": "المشاريع",
+      "en": "Projects",
+      "type": "text"
+    },
+    "projects.text.17": {
+      "ar": "الجودة والسلامة",
+      "en": "Quality &amp; Safety",
+      "type": "text"
+    },
+    "projects.text.18": {
+      "ar": "اتصل بنا",
+      "en": "Contact",
+      "type": "text"
+    },
+    "projects.text.19": {
+      "ar": "مشاريع وأعمال",
+      "en": "Projects &amp; Work",
+      "type": "text"
+    },
+    "projects.text.2": {
+      "ar": "الخدمات",
+      "en": "Services",
+      "type": "text"
+    },
+    "projects.text.20": {
+      "ar": "مشاريع حقيقية من الموقع: تنفيذ، سلامة، وعمل جماعي.",
+      "en": "Real site projects: delivery, safety and teamwork.",
+      "type": "text"
+    },
+    "projects.text.21": {
+      "ar": "أعمال مختارة",
+      "en": "Selected Work",
+      "type": "text"
+    },
+    "projects.text.22": {
+      "ar": "اختر مجالًا لمشاهدة الصور والمقاطع المرتبطة به.",
+      "en": "Choose a category to explore relevant images and footage.",
+      "type": "text"
+    },
+    "projects.text.23": {
+      "ar": "الكل",
+      "en": "All",
+      "type": "text"
+    },
+    "projects.text.24": {
+      "ar": "إنشاءات",
+      "en": "Construction",
+      "type": "text"
+    },
+    "projects.text.25": {
+      "ar": "الموقع",
+      "en": "Site Operations",
+      "type": "text"
+    },
+    "projects.text.26": {
+      "ar": "صيانة",
+      "en": "Maintenance",
+      "type": "text"
+    },
+    "projects.text.27": {
+      "ar": "بورتسودان",
+      "en": "Port Sudan",
+      "type": "text"
+    },
+    "projects.text.28": {
+      "ar": "منزل خاص",
+      "en": "Private House",
+      "type": "text"
+    },
+    "projects.text.29": {
+      "ar": "تنفيذ ميداني مع لوحة مشروع واضحة ومتابعة يومية في الموقع.",
+      "en": "Active delivery with a clear project board and daily site oversight.",
+      "type": "text"
+    },
+    "projects.text.3": {
+      "ar": "المشاريع",
+      "en": "Projects",
+      "type": "text"
+    },
+    "projects.text.30": {
+      "ar": "مشروع مختار",
+      "en": "Selected work",
+      "type": "text"
+    },
+    "projects.text.31": {
+      "ar": "تنفيذ مبنى",
+      "en": "Building Construction",
+      "type": "text"
+    },
+    "projects.text.32": {
+      "ar": "من الهيكل الإنشائي إلى الواجهة المنجزة.",
+      "en": "From structural work to a completed exterior.",
+      "type": "text"
+    },
+    "projects.text.33": {
+      "ar": "عمليات الموقع",
+      "en": "Site operations",
+      "type": "text"
+    },
+    "projects.text.34": {
+      "ar": "المكتب المتحرك",
+      "en": "On-site Engineering Office",
+      "type": "text"
+    },
+    "projects.text.35": {
+      "ar": "قاعدة ميدانية للمتابعة الهندسية وضبط السلامة في الموقع.",
+      "en": "A field base for engineering oversight and site safety control.",
+      "type": "text"
+    },
+    "projects.text.36": {
+      "ar": "إنشاءات",
+      "en": "Construction",
+      "type": "text"
+    },
+    "projects.text.37": {
+      "ar": "أعمال البناء",
+      "en": "Masonry &amp; Build",
+      "type": "text"
+    },
+    "projects.text.38": {
+      "ar": "فرق عمل منسّقة بسترات عاكسة وخوذات أثناء التنفيذ.",
+      "en": "Coordinated crews in reflective gear during active construction.",
+      "type": "text"
+    },
+    "projects.text.39": {
+      "ar": "عمل جماعي",
+      "en": "Teamwork",
+      "type": "text"
+    },
+    "projects.text.4": {
+      "ar": "الجودة والسلامة",
+      "en": "Quality &amp; Safety",
+      "type": "text"
+    },
+    "projects.text.40": {
+      "ar": "تنسيق فرق الموقع",
+      "en": "Site team coordination",
+      "type": "text"
+    },
+    "projects.text.41": {
+      "ar": "مهام مشتركة بين الفرق مع التزام واضح بمعدات السلامة.",
+      "en": "Shared site tasks with clear PPE discipline.",
+      "type": "text"
+    },
+    "projects.text.42": {
+      "ar": "صيانة",
+      "en": "Maintenance",
+      "type": "text"
+    },
+    "projects.text.43": {
+      "ar": "صيانة محطة بشائر",
+      "en": "Bashair Station Maintenance",
+      "type": "text"
+    },
+    "projects.text.44": {
+      "ar": "مشاهد من أعمال الصيانة الواردة في بروفايل الشركة.",
+      "en": "Maintenance work documented in the company profile.",
+      "type": "text"
+    },
+    "projects.text.45": {
+      "ar": "متابعة دقيقة والوقوف على الأنشطة",
+      "en": "Precise follow-up and standing on activities",
+      "type": "text"
+    },
+    "projects.text.46": {
+      "ar": "في الموقع، المتابعة ليست زيارة عابرة — بل وقوف مباشر على الأنشطة، مراجعة المخططات، والتأكد من أن التنفيذ يسير وفق الجودة والسلامة في كل مرحلة.",
+      "en": "On site, oversight is not a brief visit — it is standing on the activities, reviewing the plans, and making sure delivery stays aligned with quality and safety at every stage.",
+      "type": "text"
+    },
+    "projects.text.47": {
+      "ar": "مراجعة ميدانية مع المخططات",
+      "en": "Field review against the plans",
+      "type": "text"
+    },
+    "projects.text.48": {
+      "ar": "متابعة يومية لأنشطة التنفيذ",
+      "en": "Daily follow-up on delivery activities",
+      "type": "text"
+    },
+    "projects.text.49": {
+      "ar": "التزام بالسلامة والعواكس في الموقع",
+      "en": "Safety and high-visibility gear on site",
+      "type": "text"
+    },
+    "projects.text.5": {
+      "ar": "اتصل بنا",
+      "en": "Contact",
+      "type": "text"
+    },
+    "projects.text.50": {
+      "ar": "متابعة هندسية مباشرة في الموقع",
+      "en": "Direct engineering follow-up on site",
+      "type": "text"
+    },
+    "projects.text.51": {
+      "ar": "من أرض الواقع",
+      "en": "From the field",
+      "type": "text"
+    },
+    "projects.text.52": {
+      "ar": "لمحات من التنفيذ اليومي: سلامة، دقة، وعمل جماعي في الموقع.",
+      "en": "Glimpses of daily delivery: safety, precision and teamwork on site.",
+      "type": "text"
+    },
+    "projects.text.53": {
+      "ar": "عمل جماعي بدقة هندسية",
+      "en": "Teamwork with engineering care",
+      "type": "text"
+    },
+    "projects.text.54": {
+      "ar": "تنفيذ ميداني",
+      "en": "Hands-on delivery",
+      "type": "text"
+    },
+    "projects.text.55": {
+      "ar": "ضبط الجودة",
+      "en": "Quality checks",
+      "type": "text"
+    },
+    "projects.text.56": {
+      "ar": "متابعة ميدانية",
+      "en": "On-site follow-up",
+      "type": "text"
+    },
+    "projects.text.57": {
+      "ar": "تفصيل مع عواكس",
+      "en": "Detail with PPE",
+      "type": "text"
+    },
+    "projects.text.58": {
+      "ar": "فريق واحد في الموقع",
+      "en": "One team on site",
+      "type": "text"
+    },
+    "projects.text.59": {
+      "ar": "معرض أعمال الإنشاء",
+      "en": "Construction gallery",
+      "type": "text"
+    },
+    "projects.text.6": {
+      "ar": "المقاولات العامة",
+      "en": "General Contracting",
+      "type": "text"
+    },
+    "projects.text.60": {
+      "ar": "من الأساسات والشدّات إلى الهيكل والطوابق — مشاهد من مشاريع تُبنى على أرض الواقع.",
+      "en": "From foundations and formwork to structure and floors — scenes of projects built on the ground.",
+      "type": "text"
+    },
+    "projects.text.61": {
+      "ar": "هيكل المبنى قيد التنفيذ",
+      "en": "Building frame in progress",
+      "type": "text"
+    },
+    "projects.text.62": {
+      "ar": "أساسات وأعمدة",
+      "en": "Foundations and columns",
+      "type": "text"
+    },
+    "projects.text.63": {
+      "ar": "شدّات البلاطات",
+      "en": "Slab formwork",
+      "type": "text"
+    },
+    "projects.text.64": {
+      "ar": "تجهيز للصب",
+      "en": "Ready for pouring",
+      "type": "text"
+    },
+    "projects.text.65": {
+      "ar": "مرحلة الأساسات",
+      "en": "Foundation stage",
+      "type": "text"
+    },
+    "projects.text.66": {
+      "ar": "أعمال إنشائية دقيقة",
+      "en": "Precise structural works",
+      "type": "text"
+    },
+    "projects.text.67": {
+      "ar": "دعم البلاطات",
+      "en": "Slab support",
+      "type": "text"
+    },
+    "projects.text.68": {
+      "ar": "تنفيذ الدرج والبلاطات",
+      "en": "Stairs and slabs",
+      "type": "text"
+    },
+    "projects.text.69": {
+      "ar": "متابعة من أرض الواقع",
+      "en": "Progress from the ground",
+      "type": "text"
+    },
+    "projects.text.7": {
+      "ar": "الهندسة المدنية",
+      "en": "Civil Engineering",
+      "type": "text"
+    },
+    "projects.text.70": {
+      "ar": "عناية بالخرسانة",
+      "en": "Concrete care",
+      "type": "text"
+    },
+    "projects.text.71": {
+      "ar": "أعمال البناء في الموقع",
+      "en": "Construction on site",
+      "type": "text"
+    },
+    "projects.text.72": {
+      "ar": "التشطيبات الداخلية",
+      "en": "Interior finishing",
+      "type": "text"
+    },
+    "projects.text.73": {
+      "ar": "نبني ونطوّر وننفّذ برؤية هندسية مسؤولة، من الفكرة إلى التسليم.",
+      "en": "Building and delivering with accountable engineering, from concept to completion.",
+      "type": "text"
+    },
+    "projects.text.74": {
+      "ar": "روابط سريعة",
+      "en": "Quick Links",
+      "type": "text"
+    },
+    "projects.text.75": {
+      "ar": "من نحن",
+      "en": "About",
+      "type": "text"
+    },
+    "projects.text.76": {
+      "ar": "الخدمات",
+      "en": "Services",
+      "type": "text"
+    },
+    "projects.text.77": {
+      "ar": "المشاريع",
+      "en": "Projects",
+      "type": "text"
+    },
+    "projects.text.78": {
+      "ar": "الجودة والسلامة",
+      "en": "Quality &amp; Safety",
+      "type": "text"
+    },
+    "projects.text.79": {
+      "ar": "خدماتنا",
+      "en": "Services",
+      "type": "text"
+    },
+    "projects.text.8": {
+      "ar": "البنية التحتية",
+      "en": "Infrastructure",
+      "type": "text"
+    },
+    "projects.text.80": {
+      "ar": "المقاولات العامة",
+      "en": "General Contracting",
+      "type": "text"
+    },
+    "projects.text.81": {
+      "ar": "الهندسة المدنية",
+      "en": "Civil Engineering",
+      "type": "text"
+    },
+    "projects.text.82": {
+      "ar": "إدارة المشاريع",
+      "en": "Project Management",
+      "type": "text"
+    },
+    "projects.text.83": {
+      "ar": "تواصل معنا",
+      "en": "Contact",
+      "type": "text"
+    },
+    "projects.text.84": {
+      "ar": "الخرطوم، السودان",
+      "en": "Khartoum, Sudan",
+      "type": "text"
+    },
+    "projects.text.85": {
+      "ar": "نبني الغد، اليوم",
+      "en": "Building Tomorrow, Today",
+      "type": "text"
+    },
+    "projects.text.9": {
+      "ar": "الطرق والجسور",
+      "en": "Roads &amp; Bridges",
+      "type": "text"
+    },
     "projects.video.0": {
       "ar": "assets/exterior.mp4",
       "en": "assets/exterior.mp4",
@@ -467,6 +1982,321 @@
       "ar": "assets/axes-group-mark.png",
       "en": "assets/axes-group-mark.png",
       "type": "image"
+    },
+    "quality.text.0": {
+      "ar": "الرئيسية",
+      "en": "Home",
+      "type": "text"
+    },
+    "quality.text.1": {
+      "ar": "من نحن",
+      "en": "About",
+      "type": "text"
+    },
+    "quality.text.10": {
+      "ar": "إدارة المشاريع",
+      "en": "Project Management",
+      "type": "text"
+    },
+    "quality.text.11": {
+      "ar": "المنشآت الصناعية",
+      "en": "Industrial Construction",
+      "type": "text"
+    },
+    "quality.text.12": {
+      "ar": "طلب عرض",
+      "en": "Request a Quote",
+      "type": "text"
+    },
+    "quality.text.13": {
+      "ar": "الرئيسية",
+      "en": "Home",
+      "type": "text"
+    },
+    "quality.text.14": {
+      "ar": "من نحن",
+      "en": "About",
+      "type": "text"
+    },
+    "quality.text.15": {
+      "ar": "الخدمات",
+      "en": "Services",
+      "type": "text"
+    },
+    "quality.text.16": {
+      "ar": "المشاريع",
+      "en": "Projects",
+      "type": "text"
+    },
+    "quality.text.17": {
+      "ar": "الجودة والسلامة",
+      "en": "Quality &amp; Safety",
+      "type": "text"
+    },
+    "quality.text.18": {
+      "ar": "اتصل بنا",
+      "en": "Contact",
+      "type": "text"
+    },
+    "quality.text.19": {
+      "ar": "الجودة والسلامة",
+      "en": "Quality &amp; Safety",
+      "type": "text"
+    },
+    "quality.text.2": {
+      "ar": "الخدمات",
+      "en": "Services",
+      "type": "text"
+    },
+    "quality.text.20": {
+      "ar": "مبادئ توجه قرارات التنفيذ في الموقع.",
+      "en": "The principles that guide on-site decisions.",
+      "type": "text"
+    },
+    "quality.text.21": {
+      "ar": "انضباط في التفاصيل",
+      "en": "Discipline in the details",
+      "type": "text"
+    },
+    "quality.text.22": {
+      "ar": "نربط التخطيط والمتابعة في الموقع بالاهتمام بجودة التنفيذ وسلامة فرق العمل.",
+      "en": "We connect planning and on-site oversight with careful execution and attention to team safety.",
+      "type": "text"
+    },
+    "quality.text.23": {
+      "ar": "السلامة أولًا",
+      "en": "Safety First",
+      "type": "text"
+    },
+    "quality.text.24": {
+      "ar": "تنظيم الموقع ومتابعة ضوابط السلامة أثناء التنفيذ.",
+      "en": "Organized sites and attention to safe execution.",
+      "type": "text"
+    },
+    "quality.text.25": {
+      "ar": "ضبط الجودة",
+      "en": "Quality Control",
+      "type": "text"
+    },
+    "quality.text.26": {
+      "ar": "مراجعة التفاصيل والمواد خلال مراحل العمل.",
+      "en": "Reviewing details and materials throughout delivery.",
+      "type": "text"
+    },
+    "quality.text.27": {
+      "ar": "الاستدامة",
+      "en": "Sustainability",
+      "type": "text"
+    },
+    "quality.text.28": {
+      "ar": "التخطيط لاستخدام الموارد بعناية وتقليل الهدر.",
+      "en": "Careful resource planning and less waste.",
+      "type": "text"
+    },
+    "quality.text.29": {
+      "ar": "المسؤولية البيئية",
+      "en": "Environmental Responsibility",
+      "type": "text"
+    },
+    "quality.text.3": {
+      "ar": "المشاريع",
+      "en": "Projects",
+      "type": "text"
+    },
+    "quality.text.30": {
+      "ar": "مراعاة أثر الأعمال على الموقع والمحيط.",
+      "en": "Considering the impact of work on the site and its surroundings.",
+      "type": "text"
+    },
+    "quality.text.31": {
+      "ar": "السلامة في موقع العمل",
+      "en": "Safety on site",
+      "type": "text"
+    },
+    "quality.text.32": {
+      "ar": "خوذات وعواكس عاكسة وتنظيم واضح للموقع — التزام يومي أثناء التنفيذ.",
+      "en": "Hard hats, reflective vests and clear site control — a daily standard during delivery.",
+      "type": "text"
+    },
+    "quality.text.33": {
+      "ar": "لبس العواكس",
+      "en": "High-visibility gear",
+      "type": "text"
+    },
+    "quality.text.34": {
+      "ar": "السترات العاكسة جزء أساسي من ظهور الفريق في الموقع وزيادة السلامة.",
+      "en": "Reflective vests keep the team visible and safer across the site.",
+      "type": "text"
+    },
+    "quality.text.35": {
+      "ar": "معدات الوقاية",
+      "en": "Protective equipment",
+      "type": "text"
+    },
+    "quality.text.36": {
+      "ar": "الخوذات والقفازات والنظارات عند الحاجة ضمن ضوابط العمل اليومية.",
+      "en": "Hard hats, gloves and eye protection where needed as part of daily site practice.",
+      "type": "text"
+    },
+    "quality.text.37": {
+      "ar": "عمل جماعي منظم",
+      "en": "Organized teamwork",
+      "type": "text"
+    },
+    "quality.text.38": {
+      "ar": "تنسيق المهام بين الفرق يحافظ على السلامة وجودة التنفيذ معًا.",
+      "en": "Coordinated tasks keep safety and quality moving together.",
+      "type": "text"
+    },
+    "quality.text.39": {
+      "ar": "فريق العمل بسترات عاكسة وخوذات",
+      "en": "Crew in reflective vests and hard hats",
+      "type": "text"
+    },
+    "quality.text.4": {
+      "ar": "الجودة والسلامة",
+      "en": "Quality &amp; Safety",
+      "type": "text"
+    },
+    "quality.text.40": {
+      "ar": "روح الفريق",
+      "en": "Team spirit",
+      "type": "text"
+    },
+    "quality.text.41": {
+      "ar": "تنفيذ بأدوات وسلامة",
+      "en": "Skilled work with PPE",
+      "type": "text"
+    },
+    "quality.text.42": {
+      "ar": "تعاون في البناء",
+      "en": "Building together",
+      "type": "text"
+    },
+    "quality.text.43": {
+      "ar": "التزام بالعواكس",
+      "en": "Visibility first",
+      "type": "text"
+    },
+    "quality.text.44": {
+      "ar": "موقع منظم مع معدات السلامة",
+      "en": "Organized site with safety gear",
+      "type": "text"
+    },
+    "quality.text.45": {
+      "ar": "متابعة هندسية في موقع العمل",
+      "en": "Engineering oversight where it matters",
+      "type": "text"
+    },
+    "quality.text.46": {
+      "ar": "يوفر المكتب المتحرك مساحة متابعة قريبة من مراحل التنفيذ، مع مهندس للمراقبة على مدار 24 ساعة.",
+      "en": "The mobile office keeps engineering oversight close to the work, with an engineer monitoring on site around the clock.",
+      "type": "text"
+    },
+    "quality.text.47": {
+      "ar": "الوقوف على الأنشطة في الموقع",
+      "en": "Standing on activities on site",
+      "type": "text"
+    },
+    "quality.text.48": {
+      "ar": "متابعة دقيقة على أرض الواقع",
+      "en": "Precise follow-up on the ground",
+      "type": "text"
+    },
+    "quality.text.49": {
+      "ar": "الجودة والسلامة تُتابع ميدانيًا: مراجعة المخططات، الوقوف على الأنشطة، والتأكد من الالتزام بمعايير التنفيذ يومًا بيوم.",
+      "en": "Quality and safety are followed up on site: reviewing the plans, standing on the activities, and confirming delivery standards day by day.",
+      "type": "text"
+    },
+    "quality.text.5": {
+      "ar": "اتصل بنا",
+      "en": "Contact",
+      "type": "text"
+    },
+    "quality.text.50": {
+      "ar": "نبني ونطوّر وننفّذ برؤية هندسية مسؤولة، من الفكرة إلى التسليم.",
+      "en": "Building and delivering with accountable engineering, from concept to completion.",
+      "type": "text"
+    },
+    "quality.text.51": {
+      "ar": "روابط سريعة",
+      "en": "Quick Links",
+      "type": "text"
+    },
+    "quality.text.52": {
+      "ar": "من نحن",
+      "en": "About",
+      "type": "text"
+    },
+    "quality.text.53": {
+      "ar": "الخدمات",
+      "en": "Services",
+      "type": "text"
+    },
+    "quality.text.54": {
+      "ar": "المشاريع",
+      "en": "Projects",
+      "type": "text"
+    },
+    "quality.text.55": {
+      "ar": "الجودة والسلامة",
+      "en": "Quality &amp; Safety",
+      "type": "text"
+    },
+    "quality.text.56": {
+      "ar": "خدماتنا",
+      "en": "Services",
+      "type": "text"
+    },
+    "quality.text.57": {
+      "ar": "المقاولات العامة",
+      "en": "General Contracting",
+      "type": "text"
+    },
+    "quality.text.58": {
+      "ar": "الهندسة المدنية",
+      "en": "Civil Engineering",
+      "type": "text"
+    },
+    "quality.text.59": {
+      "ar": "إدارة المشاريع",
+      "en": "Project Management",
+      "type": "text"
+    },
+    "quality.text.6": {
+      "ar": "المقاولات العامة",
+      "en": "General Contracting",
+      "type": "text"
+    },
+    "quality.text.60": {
+      "ar": "تواصل معنا",
+      "en": "Contact",
+      "type": "text"
+    },
+    "quality.text.61": {
+      "ar": "الخرطوم، السودان",
+      "en": "Khartoum, Sudan",
+      "type": "text"
+    },
+    "quality.text.62": {
+      "ar": "نبني الغد، اليوم",
+      "en": "Building Tomorrow, Today",
+      "type": "text"
+    },
+    "quality.text.7": {
+      "ar": "الهندسة المدنية",
+      "en": "Civil Engineering",
+      "type": "text"
+    },
+    "quality.text.8": {
+      "ar": "البنية التحتية",
+      "en": "Infrastructure",
+      "type": "text"
+    },
+    "quality.text.9": {
+      "ar": "الطرق والجسور",
+      "en": "Roads &amp; Bridges",
+      "type": "text"
     }
   },
   "contact": {
@@ -484,6 +2314,295 @@
       "ar": "assets/axes-group-mark.png",
       "en": "assets/axes-group-mark.png",
       "type": "image"
+    },
+    "contact.text.0": {
+      "ar": "الرئيسية",
+      "en": "Home",
+      "type": "text"
+    },
+    "contact.text.1": {
+      "ar": "من نحن",
+      "en": "About",
+      "type": "text"
+    },
+    "contact.text.10": {
+      "ar": "إدارة المشاريع",
+      "en": "Project Management",
+      "type": "text"
+    },
+    "contact.text.11": {
+      "ar": "المنشآت الصناعية",
+      "en": "Industrial Construction",
+      "type": "text"
+    },
+    "contact.text.12": {
+      "ar": "طلب عرض",
+      "en": "Request a Quote",
+      "type": "text"
+    },
+    "contact.text.13": {
+      "ar": "الرئيسية",
+      "en": "Home",
+      "type": "text"
+    },
+    "contact.text.14": {
+      "ar": "من نحن",
+      "en": "About",
+      "type": "text"
+    },
+    "contact.text.15": {
+      "ar": "الخدمات",
+      "en": "Services",
+      "type": "text"
+    },
+    "contact.text.16": {
+      "ar": "المشاريع",
+      "en": "Projects",
+      "type": "text"
+    },
+    "contact.text.17": {
+      "ar": "الجودة والسلامة",
+      "en": "Quality &amp; Safety",
+      "type": "text"
+    },
+    "contact.text.18": {
+      "ar": "اتصل بنا",
+      "en": "Contact",
+      "type": "text"
+    },
+    "contact.text.19": {
+      "ar": "دعنا نتحدث",
+      "en": "Let’s Talk",
+      "type": "text"
+    },
+    "contact.text.2": {
+      "ar": "الخدمات",
+      "en": "Services",
+      "type": "text"
+    },
+    "contact.text.20": {
+      "ar": "تواصل معنا لمناقشة نطاق مشروعك ومتطلباته.",
+      "en": "Tell us about your project and what you need.",
+      "type": "text"
+    },
+    "contact.text.21": {
+      "ar": "نبدأ بالاستماع إلى فكرتك",
+      "en": "We start by understanding your goals",
+      "type": "text"
+    },
+    "contact.text.22": {
+      "ar": "اكتب لنا تفاصيل المشروع، وسنفتح رسالة بريد جاهزة لتراجعها وترسلها من برنامج البريد لديك.",
+      "en": "Share your project details. The form opens a prepared message in your email app for you to review and send.",
+      "type": "text"
+    },
+    "contact.text.23": {
+      "ar": "هاتف",
+      "en": "Phone",
+      "type": "text"
+    },
+    "contact.text.24": {
+      "ar": "هاتف آخر",
+      "en": "Alternative Phone",
+      "type": "text"
+    },
+    "contact.text.25": {
+      "ar": "البريد الإلكتروني",
+      "en": "Email",
+      "type": "text"
+    },
+    "contact.text.26": {
+      "ar": "العنوان",
+      "en": "Office",
+      "type": "text"
+    },
+    "contact.text.27": {
+      "ar": "الخرطوم، الرياض، شارع المشتل، شمال برج الحجاز ومنتجع السمك",
+      "en": "Al Riyadh, Al Mashtal Street, north of Al Hijaz Tower and Fish Resort, Khartoum",
+      "type": "text"
+    },
+    "contact.text.28": {
+      "ar": "الاسم",
+      "en": "Name",
+      "type": "text"
+    },
+    "contact.text.29": {
+      "ar": "البريد الإلكتروني",
+      "en": "Email",
+      "type": "text"
+    },
+    "contact.text.3": {
+      "ar": "المشاريع",
+      "en": "Projects",
+      "type": "text"
+    },
+    "contact.text.30": {
+      "ar": "نوع المشروع",
+      "en": "Project Type",
+      "type": "text"
+    },
+    "contact.text.31": {
+      "ar": "اختر نوع المشروع",
+      "en": "Select a project type",
+      "type": "text"
+    },
+    "contact.text.32": {
+      "ar": "إنشاءات",
+      "en": "Construction",
+      "type": "text"
+    },
+    "contact.text.33": {
+      "ar": "بنية تحتية",
+      "en": "Infrastructure",
+      "type": "text"
+    },
+    "contact.text.34": {
+      "ar": "إدارة مشاريع",
+      "en": "Project Management",
+      "type": "text"
+    },
+    "contact.text.35": {
+      "ar": "خدمات أخرى",
+      "en": "Other Services",
+      "type": "text"
+    },
+    "contact.text.36": {
+      "ar": "تفاصيل المشروع",
+      "en": "Project Details",
+      "type": "text"
+    },
+    "contact.text.37": {
+      "ar": "تجهيز رسالة البريد",
+      "en": "Prepare Email",
+      "type": "text"
+    },
+    "contact.text.38": {
+      "ar": "سيُفتح تطبيق البريد لديك لإرسال الطلب.",
+      "en": "Your email app will open to send the request.",
+      "type": "text"
+    },
+    "contact.text.39": {
+      "ar": "مقرنا الإداري",
+      "en": "Our office",
+      "type": "text"
+    },
+    "contact.text.4": {
+      "ar": "الجودة والسلامة",
+      "en": "Quality &amp; Safety",
+      "type": "text"
+    },
+    "contact.text.40": {
+      "ar": "نرحب بكم في مكتبنا بالخرطوم لمناقشة مشاريعكم ومتابعة التفاصيل وجهًا لوجه.",
+      "en": "Visit our Khartoum office to discuss your project and follow up face to face.",
+      "type": "text"
+    },
+    "contact.text.41": {
+      "ar": "الخرطوم، الرياض، شارع المشتل، شمال برج الحجاز ومنتجع السمك",
+      "en": "Al Riyadh, Al Mashtal Street, north of Al Hijaz Tower and Fish Resort, Khartoum",
+      "type": "text"
+    },
+    "contact.text.42": {
+      "ar": "افتح الموقع في الخرائط",
+      "en": "Open in Maps",
+      "type": "text"
+    },
+    "contact.text.43": {
+      "ar": "نبني ونطوّر وننفّذ برؤية هندسية مسؤولة، من الفكرة إلى التسليم.",
+      "en": "Building and delivering with accountable engineering, from concept to completion.",
+      "type": "text"
+    },
+    "contact.text.44": {
+      "ar": "روابط سريعة",
+      "en": "Quick Links",
+      "type": "text"
+    },
+    "contact.text.45": {
+      "ar": "من نحن",
+      "en": "About",
+      "type": "text"
+    },
+    "contact.text.46": {
+      "ar": "الخدمات",
+      "en": "Services",
+      "type": "text"
+    },
+    "contact.text.47": {
+      "ar": "المشاريع",
+      "en": "Projects",
+      "type": "text"
+    },
+    "contact.text.48": {
+      "ar": "الجودة والسلامة",
+      "en": "Quality &amp; Safety",
+      "type": "text"
+    },
+    "contact.text.49": {
+      "ar": "خدماتنا",
+      "en": "Services",
+      "type": "text"
+    },
+    "contact.text.5": {
+      "ar": "اتصل بنا",
+      "en": "Contact",
+      "type": "text"
+    },
+    "contact.text.50": {
+      "ar": "المقاولات العامة",
+      "en": "General Contracting",
+      "type": "text"
+    },
+    "contact.text.51": {
+      "ar": "الهندسة المدنية",
+      "en": "Civil Engineering",
+      "type": "text"
+    },
+    "contact.text.52": {
+      "ar": "إدارة المشاريع",
+      "en": "Project Management",
+      "type": "text"
+    },
+    "contact.text.53": {
+      "ar": "تواصل معنا",
+      "en": "Contact",
+      "type": "text"
+    },
+    "contact.text.54": {
+      "ar": "الخرطوم، السودان",
+      "en": "Khartoum, Sudan",
+      "type": "text"
+    },
+    "contact.text.55": {
+      "ar": "نبني الغد، اليوم",
+      "en": "Building Tomorrow, Today",
+      "type": "text"
+    },
+    "contact.text.6": {
+      "ar": "المقاولات العامة",
+      "en": "General Contracting",
+      "type": "text"
+    },
+    "contact.text.7": {
+      "ar": "الهندسة المدنية",
+      "en": "Civil Engineering",
+      "type": "text"
+    },
+    "contact.text.8": {
+      "ar": "البنية التحتية",
+      "en": "Infrastructure",
+      "type": "text"
+    },
+    "contact.text.9": {
+      "ar": "الطرق والجسور",
+      "en": "Roads &amp; Bridges",
+      "type": "text"
     }
-  }
+  },
+  "sector-engineering": {
+    "sector.gallery.1": {
+      "ar": "/uploads/1790923396447-bqjuyq-WhatsApp_Image_2026-10-01_at_11.09.39_PM.jpeg",
+      "en": "/uploads/1790923396447-bqjuyq-WhatsApp_Image_2026-10-01_at_11.09.39_PM.jpeg",
+      "type": "image"
+    }
+  },
+  "sector-import-export": {},
+  "sectors": {}
 }
